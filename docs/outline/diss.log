@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  11 JUN 2026 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  11 JUN 2026 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,148 +702,216 @@ although it is yet undefined on input line 15.
 
 
 ] (./diss.lof
+Overfull \hbox (11.09874pt too wide) in paragraph at lines 6--6
+ [][] []\OT1/ptm/m/n/10.95 We show how shift-ing grow-ing sea-son length with c
+li-mate change 
+ []
 
-LaTeX Warning: Reference `fig:tsMap' on page viii undefined on input line 6.
+
+Overfull \hbox (0.76164pt too wide) in paragraph at lines 6--6
+ \OT1/ptm/m/n/10.95 curently changed the tem-per-a-ture trees ex-pe-ri-ence ear
+ly in their 
+ []
+
+
+Overfull \hbox (3.28047pt too wide) in paragraph at lines 7--7
+ \OT1/ptm/m/n/10.95 rep-re-sent the ac-cu-mu-lated grow-ing de-gree days be-twe
+en leafout 
+ []
+
+[8
+
+
+] [9]
+Overfull \hbox (3.67441pt too wide) in paragraph at lines 14--14
+ [][] []\OT1/ptm/m/n/10.95 Boxplot rep-re-sent-ing the em-pir-i-cal data of our
+ ring widths (mm) 
+ []
 
 )
 \tf@lof=\write7
 \openout7 = `diss.lof'.
 
- [8
-
-
-] (./glossary.tex) [9
+ [10] (./glossary.tex) [11
 
 
 ]
 \openout2 = `ack.aux'.
 
- (./ack.tex) [10
+ (./ack.tex) [12
 
 
 ]
 \openout2 = `chapter1.aux'.
 
- (./chapter1.tex
-
-LaTeX Warning: Reference `fig:wildSpottersMap' on page 1 undefined on input lin
-e 35.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-</Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/empiricalData/treesMap.pdf, id=109, 505.89pt x 722.7pt>
-File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
-igures/empiricalData/treesMap.pdf Graphic file (type pdf)
-<use /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
-gures/empiricalData/treesMap.pdf>
-Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringtree
-spotters/analyses/figures/empiricalData/treesMap.pdf  used on input line 39.
-(pdftex.def)             Requested size: 288.0011pt x 411.436pt.
-
-LaTeX Warning: Reference `fig:tsMap' on page 1 undefined on input line 40.
-
-
-LaTeX Warning: Reference `fig:tsMap' on page 1 undefined on input line 40.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-[1
+ (./chapter1.tex [1
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/clima
+te/gsconceptualfig.jpeg, id=167, 4416.5pt x 3212.0pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+climate/gsconceptualfig.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/c
+limate/gsconceptualfig.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/climate/gsconceptualfig.jpeg  used on input line 93.
+(pdftex.def)             Requested size: 323.9978pt x 235.5964pt.
+ [2] [3 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figur
+es/climate/gsconceptualfig.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[2 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fig
-ures/empiricalData/treesMap.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[4
 
+] [5]
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/muALLbsppWlines.jpeg, id=232, 2810.5pt x 3011.25pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/muALLbsppWlines.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/muALLbsppWlines.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/muALLbsppWlines.jpeg  used on input line 24
+2.
+(pdftex.def)             Requested size: 288.0011pt x 308.54025pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/asiteMap.pdf, id=233, 722.7pt x 433.62pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/asiteMap.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/asiteMap.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/asiteMap.pdf  used on input line 249.
+(pdftex.def)             Requested size: 288.0011pt x 172.80312pt.
+ [6] [7 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figur
+es/growthModelsMain/muALLbsppWlines.jpeg>] [8 </Users/christophe_rouleau-desroc
+hers/github/wildchrokie/analyses/figures/growthModelsMain/asiteMap.pdf>] [9
+
+] [10]
+Overfull \hbox (92.4897pt too wide) in paragraph at lines 361--371
+ [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
-1.
+
+Overfull \hbox (171.34996pt too wide) in paragraph at lines 380--390
+ [][] 
+ []
+
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/FullVSRestricted.jpeg, id=298, 2710.125pt x 1806.75pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/FullVSRestricted.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/FullVSRestricted.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/FullVSRestricted.jpeg  used on input line 3
+95.
+(pdftex.def)             Requested size: 360.0pt x 239.98596pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/growthModelSlopesperSppFacet.jpeg, id=299, 2409.0pt x 2409.0pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/growthModelSlopesperSppFacet.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/growthModelSlopesperSppFacet.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/growthModelSlopesperSppFacet.jpeg  used on 
+input line 402.
+(pdftex.def)             Requested size: 288.0011pt x 288.00154pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/growthModelSlopesperSppFacetGSL.jpeg, id=300, 2409.0pt x 2409.0pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/growthModelSlopesperSppFacetGSL.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/growthModelSlopesperSppFacetGSL.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/growthModelSlopesperSppFacetGSL.jpeg  used 
+on input line 409.
+(pdftex.def)             Requested size: 288.0011pt x 288.00154pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf, id=301, 592.2125pt x 614.295pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf  used on 
+input line 416.
+(pdftex.def)             Requested size: 288.0011pt x 298.7482pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/muayear.jpeg, id=302, 1606.0pt x 1606.0pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/muayear.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/muayear.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/muayear.jpeg  used on input line 423.
+(pdftex.def)             Requested size: 360.0pt x 359.9866pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/boxplotRingWidth.jpeg, id=303, 2007.5pt x 2007.5pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/boxplotRingWidth.jpeg Graphic file (type jpg)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/boxplotRingWidth.jpeg>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/boxplotRingWidth.jpeg  used on input line 4
+30.
+(pdftex.def)             Requested size: 360.0pt x 359.9866pt.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/growt
+hModelsMain/zscored/muALLbspp.pdf, id=304, 542.025pt x 433.62pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+growthModelsMain/zscored/muALLbspp.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/zscored/muALLbspp.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/growthModelsMain/zscored/muALLbspp.pdf  used on input line 4
+37.
+(pdftex.def)             Requested size: 288.0011pt x 230.40637pt.
+
+Overfull \hbox (112.83987pt too wide) in paragraph at lines 449--473
+ [][] 
+ []
+
+[11
+
+] [12 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures
+/growthModelsMain/FullVSRestricted.jpeg>] [13 </Users/christophe_rouleau-desroc
+hers/github/wildchrokie/analyses/figures/growthModelsMain/growthModelSlopesperS
+ppFacet.jpeg>] [14 </Users/christophe_rouleau-desrochers/github/wildchrokie/ana
+lyses/figures/growthModelsMain/growthModelSlopesperSppFacetGSL.jpeg>]
+[15 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/g
+rowthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf>] [16 </Users/christophe_roul
+eau-desrochers/github/wildchrokie/analyses/figures/growthModelsMain/muayear.jpe
+g>] [17 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figur
+es/growthModelsMain/boxplotRingWidth.jpeg>] [18 </Users/christophe_rouleau-desr
+ochers/github/wildchrokie/analyses/figures/growthModelsMain/zscored/muALLbspp.p
+df>] [19] [20]) (./diss.bbl (./diss.brf)
+\tf@brf=\write8
+\openout8 = `diss.brf'.
+
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+7.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 61.
+(Font)              scaled to size 10.07397pt on input line 17.
+) [21
 
-Overfull \hbox (33.7016pt too wide) in paragraph at lines 61--62
-\OT1/ptm/m/n/10.95 search sta-tion for 2018 and 2019 ([][]$\OT1/phv/m/n/10.95 h
-ttps : / / arboretum . harvard . edu / research / data-[]resources /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Overfull \hbox (0.8149pt too wide) in paragraph at lines 74--75
-[]\OT1/ptm/m/n/10.95 where $\OML/ztmcm/m/it/10.95 i$ \OT1/ptm/m/n/10.95 de-note
-s each ob-ser-va-tion, $\OML/ztmcm/m/it/10.95 $ \OT1/ptm/m/n/10.95 rep-re-sent
- in-ter-cepts and $\OML/ztmcm/m/it/10.95 ^^L$ \OT1/ptm/m/n/10.95 rep-re-sent sl
-opes.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-[4] [5
-
-]
-</Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/figure
-s/empiricalData/rwXyearRestricted.pdf, id=164, 578.16pt x 722.7pt>
-File: /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/f
-igures/empiricalData/rwXyearRestricted.pdf Graphic file (type pdf)
-<use /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/fi
-gures/empiricalData/rwXyearRestricted.pdf>
-Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringTree
-spotters/analyses/figures/empiricalData/rwXyearRestricted.pdf  used on input li
-ne 117.
-(pdftex.def)             Requested size: 216.0022pt x 269.9973pt.
-
-Overfull \hbox (120.26633pt too wide) in paragraph at lines 128--146
- [][] 
- []
-
-[6
-
- </Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/figur
-es/empiricalData/rwXyearRestricted.pdf>] [7]) [8
-
-] (./diss.bbl (./diss.brf)
-\tf@brf=\write8
-\openout8 = `diss.brf'.
-
-)
-[9
 
 
 
 ]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex
+
+(./appendix.tex
 Appendix A.
-) [10
+) [22
 
 
 ] (./diss.aux (./abstract.aux) (./laysummary.aux) (./preface.aux)
@@ -852,23 +920,19 @@ Appendix A.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 2D7B3F168940AC9BA9B987F0D29C14E7;1114.
+(rerunfilecheck)             Checksum: F383F08219F2596D41E9A33B5F59A218;1114.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 01A1A45BF5FE9A762572B591F69FFCAF;317.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15295 strings out of 474116
- 240409 string characters out of 5743681
- 1936187 words of memory out of 5000000
- 37294 multiletter control sequences out of 15000+600000
- 598234 words of font info for 111 fonts, out of 8000000 for 9000
+ 15453 strings out of 474116
+ 247898 string characters out of 5743681
+ 1950187 words of memory out of 5000000
+ 37343 multiletter control sequences out of 15000+600000
+ 601299 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,10n,93p,1079b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,93p,1348b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
@@ -879,10 +943,10 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on diss.pdf (20 pages, 2841800 bytes).
+Output written on diss.pdf (34 pages, 3896892 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 474 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,5 +3,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {S1}{\ignorespaces Treespotters species grouped by tree type, life history, and wood anatomy. A total of 49 individual trees were sampled.}}{7}{table.caption.11}%
+\contentsline {table}{\numberline {S1}{\ignorespaces Species level slope parameters (mean and 90\% uncertainty intervals, in square brackets) across the four different predictors for Wildchrokie. GDD: growing degree days, GSL: growing season length, SOS: start of season and EOS: end of season.}}{11}{table.caption.12}%
+\contentsline {table}{\numberline {S2}{\ignorespaces Site level intercept parameters (mean and 90\% uncertainty intervals, in square brackets) across the four different predictors for Wildchrokie. GDD: growing degree days, GSL: growing season length, SOS: start of season and EOS: end of season.}}{11}{table.caption.13}%
+\contentsline {table}{\numberline {S3}{\ignorespaces Posterior means and 90\% uncertainty intervals for all model parameters across predictors}}{19}{table.caption.21}%
+\contentsline {table}{\numberline {S4}{\ignorespaces Posterior means and 90\% uncertainty intervals for all model parameters, when using basal area increment (BAI) as the response variable}}{20}{table.caption.22}%
 \addvspace {10\p@ }

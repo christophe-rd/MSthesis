@@ -4,7 +4,7 @@
 \contentsline {chapter}{Table of Contents}{vi}{chapter*.4}%
 \contentsline {chapter}{List of Tables}{vii}{chapter*.5}%
 \contentsline {chapter}{List of Figures}{viii}{chapter*.6}%
-\contentsline {chapter}{Glossary}{ix}{chapter*.7}%
-\contentsline {chapter}{Acknowledgments}{x}{chapter*.8}%
-\contentsline {chapter}{Bibliography}{9}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Supporting Materials}{10}{appendix.A}%
+\contentsline {chapter}{Glossary}{xi}{chapter*.7}%
+\contentsline {chapter}{Acknowledgments}{xii}{chapter*.8}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.23}%
+\contentsline {chapter}{\numberline {A}Supporting Materials}{22}{appendix.A}%
