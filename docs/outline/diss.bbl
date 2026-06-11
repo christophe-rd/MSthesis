@@ -1,0 +1,57 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Carpenter et~al.(2017)Carpenter, Gelman, Hoffman, Lee, Goodrich,
+  Betancourt, Brubaker, Guo, Li, and Riddell]{carpenter_stan_2017}
+B.~Carpenter, A.~Gelman, M.~D. Hoffman, D.~Lee, B.~Goodrich, M.~Betancourt,
+  M.~Brubaker, J.~Guo, P.~Li, and A.~Riddell.
+\newblock \textit{{Stan}} : {A} {Probabilistic} {Programming} {Language}.
+\newblock \emph{Journal of Statistical Software}, 76\penalty0 (1), 2017.
+\newblock ISSN 1548-7660.
+\newblock \doi{10.18637/jss.v076.i01}.
+\newblock URL \url{http://www.jstatsoft.org/v76/i01/}.
+
+\bibitem[Denny et~al.(2014)Denny, Gerst, Miller-Rushing, Tierney, Crimmins,
+  Enquist, Guertin, Rosemartin, Schwartz, Thomas, and
+  Weltzin]{denny_standardized_2014}
+E.~G. Denny, K.~L. Gerst, A.~J. Miller-Rushing, G.~L. Tierney, T.~M. Crimmins,
+  C.~A.~F. Enquist, P.~Guertin, A.~H. Rosemartin, M.~D. Schwartz, K.~A. Thomas,
+  and J.~F. Weltzin.
+\newblock Standardized phenology monitoring methods to track plant and animal
+  activity for science and resource management applications.
+\newblock \emph{International Journal of Biometeorology}, 58\penalty0
+  (4):\penalty0 591--601, May 2014.
+\newblock ISSN 0020-7128, 1432-1254.
+\newblock \doi{10.1007/s00484-014-0789-5}.
+\newblock URL \url{http://link.springer.com/10.1007/s00484-014-0789-5}.
+
+\bibitem[Raden et~al.(2020)Raden, Mattheis, Spiecker, Backofen, and
+  Kahle]{raden_potential_2020}
+M.~Raden, A.~Mattheis, H.~Spiecker, R.~Backofen, and H.-P. Kahle.
+\newblock The potential of intra-annual density information for crossdating of
+  short tree-ring series.
+\newblock \emph{Dendrochronologia}, 60:\penalty0 125679, Apr. 2020.
+\newblock ISSN 11257865.
+\newblock \doi{10.1016/j.dendro.2020.125679}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S1125786520300175}.
+
+\bibitem[Schneider et~al.(2012)Schneider, Rasband, and
+  Eliceiri]{schneider_nih_2012}
+C.~A. Schneider, W.~S. Rasband, and K.~W. Eliceiri.
+\newblock {NIH} {Image} to {ImageJ}: 25 years of image analysis.
+\newblock \emph{Nature Methods}, 9\penalty0 (7):\penalty0 671--675, July 2012.
+\newblock ISSN 1548-7091, 1548-7105.
+\newblock \doi{10.1038/nmeth.2089}.
+\newblock URL \url{https://www.nature.com/articles/nmeth.2089}.
+
+\bibitem[{Stan Development Team}(2025)]{stan_development_team_rstan_2025}
+{Stan Development Team}.
+\newblock {RStan}: the {R} interface to {Stan}, 2025.
+\newblock URL \url{https://mc-stan.org/}.
+
+\end{thebibliography}
