@@ -6,5 +6,7 @@
 \contentsline {chapter}{List of Figures}{viii}{chapter*.6}%
 \contentsline {chapter}{Glossary}{xi}{chapter*.7}%
 \contentsline {chapter}{Acknowledgments}{xii}{chapter*.8}%
-\contentsline {chapter}{Bibliography}{21}{chapter*.23}%
-\contentsline {chapter}{\numberline {A}Supporting Materials}{22}{appendix.A}%
+\contentsline {chapter}{\numberline {1}Wildchrokie}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}CoringTreespotters}{21}{chapter.2}%
+\contentsline {chapter}{Bibliography}{25}{chapter*.23}%
+\contentsline {chapter}{\numberline {A}Supporting Materials}{26}{appendix.A}%
