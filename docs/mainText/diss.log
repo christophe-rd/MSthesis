@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  10 JUN 2026 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  12 JUN 2026 12:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,7 +454,8 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box54
 )
-No file diss.aux.
+(./diss.aux (./abstract.aux) (./laysummary.aux) (./preface.aux) (./ack.aux)
+(./intro.aux) (./appendix.aux))
 \openout1 = `diss.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 371.
@@ -476,6 +477,7 @@ LaTeX Font Info:    ... okay on input line 371.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 371.
 LaTeX Font Info:    ... okay on input line 371.
 \big@size=\dimen179
+
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count298
@@ -504,6 +506,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package backref Info: ** backref set up for natbib ** on input line 371.
 Package hyperref Info: Link coloring ON on input line 371.
+
+(./diss.out) (./diss.out)
 \@outlinefile=\write4
 \openout4 = `diss.out'.
 
@@ -527,11 +531,9 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
 \openout2 = `abstract.aux'.
 
  (./abstract.tex
-
-package acronym warning: acronym `ubc' is not defined on input line 7.
-
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  7.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -561,37 +563,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 Package acronym Info: Label `acro:URL' newly defined as it shall be overridden
 although it is yet undefined on input line 10.
-
-
-Package acronym Warning: Acronym `URL' is not defined on input line 10.
-
-
-package acronym warning: acronym `url' is not defined on input line 10.
-
 Package acronym Info: Label `acro:PDF' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
-
-Package acronym Warning: Acronym `PDF' is not defined on input line 11.
-
-
-package acronym warning: acronym `pdf' is not defined on input line 11.
-
 Package acronym Info: Label `acro:UBC' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
-
-Package acronym Warning: Acronym `UBC' is not defined on input line 15.
-
-
-package acronym warning: acronym `ubc' is not defined on input line 15.
-
 Package acronym Info: Label `acro:GPS' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
-
-Package acronym Warning: Acronym `GPS' is not defined on input line 15.
-
-
-package acronym warning: acronym `gps' is not defined on input line 15.
-
 ) [3
 
 
@@ -599,7 +576,8 @@ package acronym warning: acronym `gps' is not defined on input line 15.
 ]
 \openout2 = `laysummary.aux'.
 
- (./laysummary.tex) [4
+
+(./laysummary.tex) [4
 
 
 
@@ -608,52 +586,53 @@ package acronym warning: acronym `gps' is not defined on input line 15.
 ]
 \openout2 = `preface.aux'.
 
- (./preface.tex
-
-package acronym warning: acronym `ubc' is not defined on input line 6.
-
-
-package acronym warning: acronym `gps' is not defined on input line 7.
-
-) [5
+ (./preface.tex) [5
 
 
 
 
 
-]
-No file diss.toc.
+] (./diss.toc [6
+
+
+
+
+])
 \tf@toc=\write5
 \openout5 = `diss.toc'.
 
-[6
-
-
-
-
-]
-No file diss.lot.
+ [7] (./diss.lot)
 \tf@lot=\write6
 \openout6 = `diss.lot'.
 
-[7
-
-
-]
-No file diss.lof.
-\tf@lof=\write7
-\openout7 = `diss.lof'.
 
 [8
 
 
-] (./glossary.tex) [9
+] (./diss.lof)
+\tf@lof=\write7
+\openout7 = `diss.lof'.
+
+ [9
+
+
+] (./glossary.tex
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
+4.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 24.
+) [10
 
 
 ]
 \openout2 = `ack.aux'.
 
- (./ack.tex) [10
+
+(./ack.tex) [11
 
 
 ]
@@ -675,54 +654,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-0.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 20.
-
-
-LaTeX Warning: Reference `sec:SuggestedThesisOrganization' on page 1 undefined 
-on input line 27.
-
-
-LaTeX Warning: Reference `sec:CrossReferences' on page 1 undefined on input lin
-e 29.
-
-
-LaTeX Warning: Reference `sec:BibTeX' on page 1 undefined on input line 31.
-
-
-LaTeX Warning: Reference `sec:TypesettingTables' on page 1 undefined on input l
-ine 33.
-
-
-LaTeX Warning: Reference `sec:Graphics' on page 1 undefined on input line 35.
-
-
-LaTeX Warning: Reference `sec:SpecialSymbols' on page 1 undefined on input line
- 36.
-
-
-LaTeX Warning: Reference `sec:DissertationRevisionControl' on page 1 undefined 
-on input line 39.
-
-
-LaTeX Warning: Reference `sec:Conclusions' on page 1 undefined on input line 41
-.
-
-
-package acronym warning: acronym `ubc' is not defined on input line 47.
-
 Package acronym Info: Label `acro:GPS' overridden on input line 47.
-
-Package acronym Warning: Acronym `GPS' is not defined on input line 47.
-
-
-package acronym warning: acronym `gps' is not defined on input line 47.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 49--49
 [][][]\OT1/ptm/m/n/9 See [][]$\OT1/phv/m/n/9 http : / / www . grad . ubc . ca /
@@ -736,18 +670,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
 
 ]
-
-package acronym warning: acronym `url' is not defined on input line 74.
-
-
 Overfull \hbox (33.86638pt too wide) in paragraph at lines 82--87
 \OT1/ptm/m/n/10.95 L[]T[]X make man-ag-ing cross-references easy, and the [][]\
 OT1/pcr/m/n/10.95 hyperref[][] \OT1/ptm/m/n/10.95 pack-age's [][]\OT1/pcr/m/n/1
 0.95 \autoref{}
  []
 
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 93.
 LaTeX Font Info:    Trying to load font information for OMS+phv on input line 9
@@ -766,11 +694,6 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 94.
  [2]
-
-LaTeX Warning: Reference `sec:CrossReferences' on page 3 undefined on input lin
-e 106.
-
-
 Overfull \hbox (18.58759pt too wide) in paragraph at lines 117--120
 []\OT1/ptm/m/n/10.95 For de-tails on defin-ing the text used to de-scribe the t
 ype of \OT1/ptm/m/it/10.95 thing\OT1/ptm/m/n/10.95 , search \OT1/pcr/m/n/10.95 
@@ -779,23 +702,7 @@ diss.tex
 
 Package acronym Info: Label `acro:DOI' newly defined as it shall be overridden
 although it is yet undefined on input line 140.
-
-Package acronym Warning: Acronym `DOI' is not defined on input line 140.
-
-
-package acronym warning: acronym `doi' is not defined on input line 140.
-
 Package acronym Info: Label `acro:URL' overridden on input line 140.
-
-Package acronym Warning: Acronym `URL' is not defined on input line 140.
-
-
-package acronym warning: acronym `url' is not defined on input line 140.
-
-
-LaTeX Warning: Reference `sec:CrossReferences' on page 3 undefined on input lin
-e 146.
-
 [3]
 
 Package natbib Warning: Citation `kiczales-1997-aop' on page 4 undefined on inp
@@ -819,10 +726,6 @@ Overfull \hbox (45.59625pt too wide) in paragraph at lines 154--160
 
 Package natbib Warning: Citation `kiczales-1997-aop' on page 4 undefined on inp
 ut line 185.
-
-
-LaTeX Warning: Reference `tbl:natbib:cite' on page 4 undefined on input line 19
-0.
 
 
 Package natbib Warning: Citation `rowling-1997-hpps' undefined on input line 19
@@ -877,12 +780,6 @@ Package natbib Warning: Citation `kiczales-1997-aop' on page 4 undefined on inp
 ut line 223.
 
 
-Overfull \hbox (5.40912pt too wide) in paragraph at lines 188--227
-\OT1/ptm/m/n/10.95 year) de-pends on the bib-li-og-ra-phy style (de-scribed in 
-the next sec-tion). The [][]\OT1/pcr/m/n/10.95 \citet
- []
-
-
 Overfull \hbox (9.11176pt too wide) in paragraph at lines 230--240
 \OT1/ptm/m/n/10.95 are many va-ri-eties, such as \OT1/pcr/m/n/10.95 plainnat\OT
 1/ptm/m/n/10.95 , \OT1/pcr/m/n/10.95 abbrvnat\OT1/ptm/m/n/10.95 , \OT1/pcr/m/n/
@@ -896,23 +793,10 @@ Package natbib Warning: Citation `lamport-1994-ladps' on page 5 undefined on in
 put line 251.
 
 [5]
-
-LaTeX Warning: Reference `tbl:natbib:cite' on page 6 undefined on input line 26
-4.
-
-
-LaTeX Warning: Reference `tbl:LaTeX:Symbols' on page 6 undefined on input line 
-264.
-
-
 Overfull \hbox (32.54863pt too wide) in paragraph at lines 260--274
 []\OT1/ptm/m/n/10.95 The [][]\OT1/pcr/m/n/10.95 booktabs[][] \OT1/ptm/m/n/10.95
  pack-age helps pro-duce ta-bles in the form used by most professionally-
  []
-
-
-LaTeX Warning: Reference `fig:latex-affirmation' on page 6 undefined on input l
-ine 306.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 22.88956pt on input line 311.
@@ -925,20 +809,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 15.89755pt on input line 311.
 [6]
-
-package acronym warning: acronym `gps' is not defined on input line 342.
-
-
-LaTeX Warning: Reference `sec:CrossReferences' on page 7 undefined on input lin
-e 348.
-
-
-LaTeX Warning: Reference `tbl:LaTeX:Symbols' on page 7 undefined on input line 
-362.
-
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 3
 72.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
@@ -963,18 +836,7 @@ Package natbib Warning: Citation `bringhurst-2002-teots' on page 8 undefined on
 [8]
 Package acronym Info: Label `acro:RCS' newly defined as it shall be overridden
 although it is yet undefined on input line 457.
-
-
-Package acronym Warning: Acronym `RCS' is not defined on input line 457.
-
-
-package acronym warning: acronym `rcs' is not defined on input line 457.
-
-[9]
-
-package acronym warning: acronym `rcs' is not defined on input line 463.
-
-
+ [9]
 Overfull \hbox (36.87973pt too wide) in paragraph at lines 495--499
 []\OT1/ptm/m/n/10.95 Provides two new com-mands for strik-ing out and cross-ing
  out text ([][]\OT1/pcr/m/n/10.95 \sout{text}
@@ -984,22 +846,6 @@ Overfull \hbox (36.87973pt too wide) in paragraph at lines 495--499
 Package acronym Info: Label `acro:CTAN' newly defined as it shall be overridden
 
 although it is yet undefined on input line 573.
-
-
-Package acronym Warning: Acronym `CTAN' is not defined on input line 573.
-
-
-package acronym warning: acronym `ctan' is not defined on input line 573.
-
-
-package acronym warning: acronym `ctan' is not defined on input line 577.
-
-
-package acronym warning: acronym `ctan' is not defined on input line 578.
-
-
-package acronym warning: acronym `ctan' is not defined on input line 593.
-
 ) [12]
 No file diss.bbl.
 \openout2 = `appendix.aux'.
@@ -1021,30 +867,17 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `diss.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `diss.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3DCAF1BB1A782952FD2F68F8E38FB2B5;5515.
+Package rerunfilecheck Info: File `diss.out' has not changed.
+(rerunfilecheck)             Checksum: 3DCAF1BB1A782952FD2F68F8E38FB2B5;5515.
  ) 
 Here is how much of TeX's memory you used:
- 14480 strings out of 474116
- 227979 string characters out of 5743681
+ 14547 strings out of 474116
+ 228840 string characters out of 5743681
  1955187 words of memory out of 5000000
- 36434 multiletter control sequences out of 15000+600000
- 621191 words of font info for 148 fonts, out of 8000000 for 9000
+ 36477 multiletter control sequences out of 15000+600000
+ 620084 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,93p,308b,1977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,372b,1977s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
@@ -1054,10 +887,10 @@ e/2024/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2024/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on diss.pdf (23 pages, 156543 bytes).
+Output written on diss.pdf (24 pages, 162074 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 131 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 509 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
