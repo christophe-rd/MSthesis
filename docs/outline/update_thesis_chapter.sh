@@ -18,6 +18,7 @@ inside && !skip &&
 sed -i '' '1s/^/\\chapter{Wildchrokie}\n\\label{ch:Wildchrokie}\n/' "$DEST"
 sed -i '' 's|/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/|../figures/wildchrokie/|g' "$DEST"
 echo "Updated $DEST"
+
 SOURCE="$HOME/github/coringtreespotters/docs/manuscript/TSmanuscriptOutline.tex"
 DEST="$HOME/github/MSthesis/docs/outline/chapter2.tex"
 awk '
@@ -37,7 +38,10 @@ inside && !skip &&
 sed -i '' '1s/^/\\chapter{CoringTreespotters}\n\\label{ch:CoringTreespotters}\n/' "$DEST"
 # Remove the Ball command since it's already defined in chapter 1
 sed -i '' '/^\\newcommand{\\Ball}/d' "$DEST"
+# Rewrite figure paths to match the rsync destination below
+sed -i '' 's|\.\./\.\./analyses/figures/|../figures/coringtreespotters/|g' "$DEST"
 echo "Updated $DEST"
+
 # Copy figures and delete what's currently in that directory
 rsync -av --delete \
   "$HOME/github/wildchrokie/analyses/figures/" \

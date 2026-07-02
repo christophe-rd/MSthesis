@@ -7,6 +7,8 @@ I created a shell script with chatGPT so I could more robustly copy and paste th
 For now, it copies and paste the content of my second chapter into the thesis outline repo, by removing the preambule because it won't render here with it. It also removes the bibliography block, because it runs somewhere else, and copies the bibliography from Wildchrokie. 
 
 To edit the shell script, run the following in the terminal. 
+Go to `~MSthesis/docs/outline`
+
 `nano update_thesis_chapter.sh`
 Then save
 
