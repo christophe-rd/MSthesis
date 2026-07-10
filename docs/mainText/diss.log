@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  10 JUL 2026 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  10 JUL 2026 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -731,7 +731,7 @@ Chapter 1.
 
 ] [2]
 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/clima
-te/gsconceptualfig.pdf, id=581, 794.97pt x 578.16pt>
+te/gsconceptualfig.pdf, id=565, 794.97pt x 578.16pt>
 File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
 climate/gsconceptualfig.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/c
@@ -742,7 +742,7 @@ e/analyses/figures/climate/gsconceptualfig.pdf  used on input line 44.
  [3] [4 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figur
 es/climate/gsconceptualfig.pdf>]
 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
-icalData/mapSourcePop.pdf, id=635, 722.7pt x 433.62pt>
+icalData/mapSourcePop.pdf, id=619, 722.7pt x 433.62pt>
 File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
 empiricalData/mapSourcePop.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
@@ -755,7 +755,7 @@ e/analyses/figures/empiricalData/mapSourcePop.pdf  used on input line 67.
 ] [6 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
 empiricalData/mapSourcePop.pdf>]
 [7] [8]
-<../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf, id=730, 578.16pt 
+<../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf, id=714, 578.16pt 
 x 722.7pt>
 File: ../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf Graphic file 
 (type pdf)
@@ -767,7 +767,7 @@ s.pdf  used on input line 243.
 
 LaTeX Warning: Float too large for page by 6.11949pt on input line 246.
 
-<../figures/wildchrokie/growthModelsMain/muasite.pdf, id=733, 505.89pt x 289.08
+<../figures/wildchrokie/growthModelsMain/muasite.pdf, id=717, 505.89pt x 289.08
 pt>
 File: ../figures/wildchrokie/growthModelsMain/muasite.pdf Graphic file (type pd
 f)
@@ -784,7 +784,7 @@ Overfull \hbox (38.84131pt too wide) in paragraph at lines 306--317
  []
 
 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
-icalData/phenoTimeseries.pdf, id=916, 433.62pt x 578.16pt>
+icalData/phenoTimeseries.pdf, id=900, 433.62pt x 578.16pt>
 File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
 empiricalData/phenoTimeseries.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
@@ -793,7 +793,7 @@ Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
 e/analyses/figures/empiricalData/phenoTimeseries.pdf  used on input line 322.
 (pdftex.def)             Requested size: 281.85587pt x 375.826pt.
 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
-icalData/rwXyearAll.pdf, id=917, 722.7pt x 578.16pt>
+icalData/rwXyearAll.pdf, id=901, 722.7pt x 578.16pt>
 File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
 empiricalData/rwXyearAll.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
@@ -815,7 +815,7 @@ Overfull \hbox (8.58669pt too wide) in paragraph at lines 386--411
  [][] 
  []
 
-<../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf, id=946, 650.43pt
+<../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf, id=930, 650.43pt
  x 433.62pt>
 File: ../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf Graphic file
  (type pdf)
@@ -824,7 +824,7 @@ Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/FullVSRestrict
 ed.pdf  used on input line 450.
 (pdftex.def)             Requested size: 469.75502pt x 313.17879pt.
 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg, id=
-947, 2409.0pt x 2409.0pt>
+931, 2409.0pt x 2409.0pt>
 File: ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg
  Graphic file (type jpg)
 <use ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg>
@@ -833,7 +833,7 @@ Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/growthModelSlo
 pesperSppFacet.jpeg  used on input line 457.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.jpeg, 
-id=948, 2409.0pt x 2409.0pt>
+id=932, 2409.0pt x 2409.0pt>
 File: ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.j
 peg Graphic file (type jpg)
 <use ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.jp
@@ -842,7 +842,7 @@ Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/growthModelSlo
 pesperSppFacetGSL.jpeg  used on input line 464.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf, id=
-949, 592.2125pt x 614.295pt>
+933, 592.2125pt x 614.295pt>
 File: ../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf
  Graphic file (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf>
@@ -850,7 +850,7 @@ File: ../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/meanPlotGrowth
 GDD_treeidBYspp.pdf  used on input line 471.
 (pdftex.def)             Requested size: 375.80544pt x 389.82927pt.
-<../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg, id=950, 2007.5p
+<../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg, id=934, 2007.5p
 t x 2007.5pt>
 File: ../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg Graphic fil
 e (type jpg)
@@ -858,7 +858,7 @@ e (type jpg)
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/boxplotRingWid
 th.jpeg  used on input line 478.
 (pdftex.def)             Requested size: 469.75502pt x 469.74086pt.
-<../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf, id=951, 867.
+<../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf, id=935, 867.
 24pt x 578.16pt>
 File: ../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf Graphic 
 file (type pdf)
@@ -866,7 +866,7 @@ file (type pdf)
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/boxplotPredict
 orsAll.pdf  used on input line 485.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-<../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf, id=952, 542.02
+<../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf, id=936, 542.02
 5pt x 433.62pt>
 File: ../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf Graphic fi
 le (type pdf)
@@ -895,7 +895,7 @@ Chapter 2.
 
 ] [29]
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/empiricalData/tree_species_map.pdf, id=1118, 361.35pt x 361.35pt>
+s/empiricalData/tree_species_map.pdf, id=1102, 361.35pt x 361.35pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/empiricalData/tree_species_map.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
@@ -906,7 +906,7 @@ e 52.
 (pdftex.def)             Requested size: 375.80544pt x 375.80617pt.
  [30 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/empiricalData/tree_species_map.pdf>] [31] [32] [33]
-<../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf, id=1199,
+<../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf, id=1183,
  650.43pt x 686.565pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf Grap
 hic file (type pdf)
@@ -915,7 +915,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmuALL
 bsppWlines.pdf  used on input line 195.
 (pdftex.def)             Requested size: 375.80544pt x 396.68893pt.
 <../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviousYR.
-pdf, id=1204, 433.62pt x 650.43pt>
+pdf, id=1188, 433.62pt x 650.43pt>
 File: ../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSprevio
 usYR.pdf Graphic file (type pdf)
 <use ../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviou
@@ -930,7 +930,7 @@ sYR.pdf>] [37
 
 ] [38]
 </Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/figure
-s/empiricalData/rwXyearRestricted.pdf, id=1280, 578.16pt x 722.7pt>
+s/empiricalData/rwXyearRestricted.pdf, id=1264, 578.16pt x 722.7pt>
 File: /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/f
 igures/empiricalData/rwXyearRestricted.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/fi
@@ -946,7 +946,7 @@ es/empiricalData/rwXyearRestricted.pdf>] [40]
 
 LaTeX Warning: Float too large for page by 99.2108pt on input line 415.
 
-<../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg, id=1308, 1606.0
+<../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg, id=1292, 1606.0
 pt x 1606.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg Graphic fil
 e (type jpg)
@@ -954,7 +954,7 @@ e (type jpg)
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmuaye
 ar.jpeg  used on input line 469.
 (pdftex.def)             Requested size: 234.8775pt x 234.86124pt.
-<../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg, id=1311,
+<../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg, id=1295,
  2409.0pt x 2007.5pt>
 File: ../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg Grap
 hic file (type jpg)
@@ -963,7 +963,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/boxplot
 RingWidth.jpeg  used on input line 476.
 (pdftex.def)             Requested size: 469.75502pt x 391.44562pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-DDtree.jpeg, id=1312, 2409.0pt x 2409.0pt>
+DDtree.jpeg, id=1296, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGDDtree.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
@@ -972,7 +972,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
 hModelSlopesperSppFacetGDDtree.jpeg  used on input line 483.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-SLtree.jpeg, id=1313, 2409.0pt x 2409.0pt>
+SLtree.jpeg, id=1297, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGSLtree.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
@@ -981,7 +981,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
 hModelSlopesperSppFacetGSLtree.jpeg  used on input line 490.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-DDyr.jpeg, id=1314, 2409.0pt x 2409.0pt>
+DDyr.jpeg, id=1298, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGDDyr.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
@@ -990,7 +990,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
 hModelSlopesperSppFacetGDDyr.jpeg  used on input line 497.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-SLyr.jpeg, id=1315, 2409.0pt x 2409.0pt>
+SLyr.jpeg, id=1299, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGSLyr.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
@@ -999,7 +999,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
 hModelSlopesperSppFacetGSLyr.jpeg  used on input line 504.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidBYspp
-.pdf, id=1316, 650.43pt x 722.7pt>
+.pdf, id=1300, 650.43pt x 722.7pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeid
 BYspp.pdf Graphic file (type pdf)
 <use ../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidB
@@ -1008,7 +1008,7 @@ Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmeanP
 lotGrowthGDD_treeidBYspp.pdf  used on input line 511.
 (pdftex.def)             Requested size: 375.80544pt x 417.5673pt.
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/growthModelsMain/FullVSRestricted.pdf, id=1317, 650.43pt x 433.62pt>
+s/growthModelsMain/FullVSRestricted.pdf, id=1301, 650.43pt x 433.62pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/growthModelsMain/FullVSRestricted.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
@@ -1018,7 +1018,7 @@ spotters/analyses/figures/growthModelsMain/FullVSRestricted.pdf  used on input
 line 518.
 (pdftex.def)             Requested size: 469.75502pt x 313.17879pt.
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf, id=1318, 505.89pt x 
+s/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf, id=1302, 505.89pt x 
 433.62pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf Graphic file (ty
@@ -1029,7 +1029,7 @@ Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringtree
 spotters/analyses/figures/growthModelsMain/budburstVSLeafout/DporousVSRporous.p
 df  used on input line 525.
 (pdftex.def)             Requested size: 375.80544pt x 322.1243pt.
-<../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf, id=1319
+<../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf, id=1303
 , 542.025pt x 433.62pt>
 File: ../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf Gra
 phic file (type pdf)
@@ -1037,7 +1037,7 @@ phic file (type pdf)
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/zscored
 /muALLbsppZ.pdf  used on input line 532.
 (pdftex.def)             Requested size: 375.80544pt x 300.65375pt.
-<../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf, id=1320, 433.62pt x 4
+<../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf, id=1304, 433.62pt x 4
 33.62pt>
 File: ../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf Graphic file (typ
 e pdf)
@@ -1116,8 +1116,8 @@ Package rerunfilecheck Info: File `diss.brf' has not changed.
 (rerunfilecheck)             Checksum: 3A8EF7329F2140D3A19FFBACD0CB6D82;9356.
  ) 
 Here is how much of TeX's memory you used:
- 16786 strings out of 474116
- 286923 string characters out of 5743681
+ 16770 strings out of 474116
+ 286811 string characters out of 5743681
  1971187 words of memory out of 5000000
  38585 multiletter control sequences out of 15000+600000
  567931 words of font info for 71 fonts, out of 8000000 for 9000
@@ -1140,10 +1140,10 @@ e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
 24/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on diss.pdf (81 pages, 9178606 bytes).
+Output written on diss.pdf (81 pages, 9178193 bytes).
 PDF statistics:
- 1759 PDF objects out of 2073 (max. 8388607)
- 1451 compressed objects within 15 object streams
- 260 named destinations out of 1000 (max. 500000)
+ 1739 PDF objects out of 2073 (max. 8388607)
+ 1431 compressed objects within 15 object streams
+ 244 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
