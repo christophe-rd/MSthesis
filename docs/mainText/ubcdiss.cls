@@ -91,11 +91,16 @@
 \LoadClass[letterpaper]{book}
 \RequirePackage{setspace}
 
-\ifb@l@nced
-    \setlength{\oddsidemargin}{\paperwidth-\textwidth}%
-    % TeX's margin parameters are implicitly relative to 1in
-    \setlength{\evensidemargin}{0.5\oddsidemargin-1in}%
-    \setlength{\oddsidemargin}{\evensidemargin}%
+
+% CRD2JULY: this is the default, but I think it's wrong according to ubc website:https://www.grad.ubc.ca/current-students/dissertation-thesis-preparation/page-layout-margins-numbering
+%\ifb@l@nced
+  %  \setlength{\oddsidemargin}{\paperwidth-\textwidth}%
+    %% TeX's margin parameters are implicitly relative to 1in
+    %\setlength{\evensidemargin}{0.5\oddsidemargin-1in}%
+    %\setlength{\oddsidemargin}{\evensidemargin}%
+%\fi
+\ifgpscopy
+    \RequirePackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
 \fi
 
 \RequirePackage{textcase}	% for lower- and upper-casing
