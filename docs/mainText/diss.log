@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  10 JUL 2026 09:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.27)  10 JUL 2026 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -126,48 +126,6 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \@figprefixlen=\skip87
 \@tabprefixlen=\skip88
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/mathptmx.sty
-Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-)
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/courier.sty
-Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
-)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
@@ -180,8 +138,9 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks19
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
@@ -253,6 +212,22 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
+))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -302,26 +277,26 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen169
 \cmidrulekern=\dimen170
 \defaultaddspace=\dimen171
-\@cmidla=\count283
-\@cmidlb=\count284
+\@cmidla=\count284
+\@cmidlb=\count285
 \@aboverulesep=\dimen172
 \@belowrulesep=\dimen173
-\@thisruleclass=\count285
-\@lastruleclass=\count286
+\@thisruleclass=\count286
+\@lastruleclass=\count287
 \@thisrulewidth=\dimen174
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count287
+\lst@mode=\count288
 \lst@gtempboxa=\box53
 \lst@token=\toks25
-\lst@length=\count288
+\lst@length=\count289
 \lst@currlwidth=\dimen175
-\lst@column=\count289
-\lst@pos=\count290
+\lst@column=\count290
+\lst@pos=\count291
 \lst@lostspace=\dimen176
 \lst@width=\dimen177
-\lst@newlines=\count291
-\lst@lineno=\count292
+\lst@newlines=\count292
+\lst@lineno=\count293
 \lst@maxwidth=\dimen178
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
@@ -329,8 +304,8 @@ File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count293
-\lst@skipnumbers=\count294
+\c@lstnumber=\count294
+\lst@skipnumbers=\count295
 \lst@framebox=\box54
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
@@ -346,8 +321,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count295
-\xs_countb=\count296
+\xs_counta=\count296
+\xs_countb=\count297
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
@@ -371,7 +346,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip92
 \bibsep=\skip93
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count297
+\c@NAT@ctr=\count298
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
@@ -400,8 +375,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen191
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count298
-\c@continuedfloat=\count299
+\c@caption@flags=\count299
+\c@continuedfloat=\count300
 Package caption Info: listings package is loaded.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
@@ -411,18 +386,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -449,20 +418,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count300
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\c@section@level=\count301
 )
 \@linkdim=\dimen192
 \Hy@linkcounter=\count302
 \Hy@pagecounter=\count303
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
@@ -544,11 +506,6 @@ File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
 \Hy@SectionHShift=\skip96
 )
 (./macros.tex)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-73.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
@@ -577,24 +534,24 @@ LaTeX Warning: Label `fig:bsppZscored' multiply defined.
 ) (./chapterConclusion.aux) (./appendix.aux))
 \openout1 = `diss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -630,14 +587,14 @@ LaTeX Font Info:    ... okay on input line 373.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 373.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 373
+LaTeX Info: Redefining \celsius on input line 377.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 377
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 373.
-Package gensymb Info: Using \upOmega for \ohm on input line 373.
+LaTeX Info: Redefining \ohm on input line 377.
+Package gensymb Info: Using \Omega for \ohm on input line 377.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -667,30 +624,19 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package backref Info: ** backref set up for natbib ** on input line 373.
-Package hyperref Info: Link coloring ON on input line 373.
+Package backref Info: ** backref set up for natbib ** on input line 377.
+Package hyperref Info: Link coloring ON on input line 377.
 
 (./diss.out) (./diss.out)
 \@outlinefile=\write4
 \openout4 = `diss.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-82.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
-82.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
+ [1
 
 
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]
 \openout2 = `abstract.aux'.
 
  (./abstract.tex) [3
@@ -700,106 +646,76 @@ al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
 ]
 \openout2 = `laysummary.aux'.
 
+ (./laysummary.tex
 
-(./laysummary.tex) [4
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../figures/chaptersDesign.pd
+f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figures/chaptersDesign.pdf, id=84, 899.1462pt x 1145.21846pt>
+File: ../figures/chaptersDesign.pdf Graphic file (type pdf)
+<use ../figures/chaptersDesign.pdf>
+Package pdftex.def Info: ../figures/chaptersDesign.pdf  used on input line 16.
+(pdftex.def)             Requested size: 328.82707pt x 418.81383pt.
+) [4
 
 
 
 
 
-]
+] [5 <../figures/chaptersDesign.pdf>]
 \openout2 = `preface.aux'.
 
- (./preface.tex
-Overfull \hbox (5.86423pt too wide) in paragraph at lines 36--37
-[]\OT1/ptm/m/n/10.95 The fol-low-ing co-authors re-viewed the manuscript: DL, V
-VDM, DB, CH, NP and EM Wolkovich. 
- []
-
-
-Overfull \hbox (5.86423pt too wide) in paragraph at lines 46--47
-[]\OT1/ptm/m/n/10.95 The fol-low-ing co-authors re-viewed the manuscript: DL, V
-VDM, DB, CH, NP and EM Wolkovich. 
- []
-
-) [5
+ (./preface.tex) [6
 
 
 
 
 
 ] (./diss.toc
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 1.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 1.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write5
 \openout5 = `diss.toc'.
 
- [6
+ [7
 
 
 
 
 ]
-(./diss.lot
-
-Package natbib Warning: Citation `burns_silvics_1990' on page vii undefined on 
-input line 13.
-
-[7
+(./diss.lot [8
 
 
 ])
 \tf@lot=\write6
 \openout6 = `diss.lot'.
 
- [8] (./diss.lof
-
-Package natbib Warning: Citation `nationaloceanicandatmosphericadministration_l
-ocal_2026' on page ix undefined on input line 7.
-
-[9
+ [9] (./diss.lof [10
 
 
-] [10] [11] [12])
+] [11] [12] [13])
 \tf@lof=\write7
 \openout7 = `diss.lof'.
 
- [13] (./glossary.tex) [14
+ [14] (./glossary.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 18.
+
+) [15
 
 
 ]
 \openout2 = `ack.aux'.
 
- (./ack.tex) [15
+ (./ack.tex) [16
 
 
 ]
@@ -807,605 +723,303 @@ ocal_2026' on page ix undefined on input line 7.
 
  (./chapter1.tex
 Chapter 1.
-
-Package natbib Warning: Citation `calvin_ipcc_2023' on page 1 undefined on inpu
-t line 18.
-
-
-Package natbib Warning: Citation `friedlingstein_global_2026' on page 1 undefin
-ed on input line 21.
-
-
-Package natbib Warning: Citation `boisvenue_impacts_2006' on page 1 undefined o
-n input line 21.
-
-
-Package natbib Warning: Citation `gaoEarlierStartThermal2022' on page 1 undefin
-ed on input line 21.
-
-
-Package natbib Warning: Citation `finziCarbonBudgetHarvard2020' on page 1 undef
-ined on input line 21.
-
-
-Package natbib Warning: Citation `harrisGlobalMapsTwentyfirst2021' on page 1 un
-defined on input line 21.
-
-
-Package natbib Warning: Citation `pan_enduring_2024' on page 1 undefined on inp
-ut line 21.
-
-
-Package natbib Warning: Citation `charletdesauvage_temperature_2022' on page 1 
-undefined on input line 24.
-
-
-Package natbib Warning: Citation `cabon_crossbiome_2022' on page 1 undefined on
- input line 24.
-
-
-Package natbib Warning: Citation `cabon_crossbiome_2022' on page 1 undefined on
- input line 24.
-
-
-Package natbib Warning: Citation `buonaiuto_early_2026' on page 1 undefined on 
-input line 29.
-
 [1
 
 
 
 
 
-]
-
-Package natbib Warning: Citation `sweeneyComparisonTimingSpring2024' on page 2 
-undefined on input line 31.
-
-
-Package natbib Warning: Citation `dox_wood_2022' on page 2 undefined on input l
-ine 34.
-
-
-Package natbib Warning: Citation `baumgarten_indeterminacy_2026' on page 2 unde
-fined on input line 34.
-
-
-Package natbib Warning: Citation `cufar_treering_2008' on page 2 undefined on i
-nput line 34.
-
-
-Package natbib Warning: Citation `gonzalez-gonzalez_comparative_2013' on page 2
- undefined on input line 34.
-
-
-Overfull \hbox (28.68874pt too wide) in paragraph at lines 37--38
-[]\OT1/ptm/m/n/10.95 Local adap-ta-tion could limit tree growth re-sponses of d
-if-fer-ent pop-u-la-tions with fu-ture cli-mate ([][][]Soolanayakana-
- []
-
-<../figures/wildchrokie/climate/gsconceptualfig.pdf, id=340, 794.97pt x 578.16p
-t>
-File: ../figures/wildchrokie/climate/gsconceptualfig.pdf Graphic file (type pdf
-)
-<use ../figures/wildchrokie/climate/gsconceptualfig.pdf>
-Package pdftex.def Info: ../figures/wildchrokie/climate/gsconceptualfig.pdf  us
-ed on input line 44.
+] [2]
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/clima
+te/gsconceptualfig.pdf, id=581, 794.97pt x 578.16pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+climate/gsconceptualfig.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/c
+limate/gsconceptualfig.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/climate/gsconceptualfig.pdf  used on input line 44.
 (pdftex.def)             Requested size: 422.77664pt x 307.48198pt.
-
-Package natbib Warning: Citation `nationaloceanicandatmosphericadministration_l
-ocal_2026' on page 2 undefined on input line 45.
-
-
-Package natbib Warning: Citation `nationaloceanicandatmosphericadministration_l
-ocal_2026' on page 2 undefined on input line 45.
-
-[2] [3 <../figures/wildchrokie/climate/gsconceptualfig.pdf>]
-
-Package natbib Warning: Citation `buonaiuto_early_2026' on page 4 undefined on 
-input line 59.
-
-
-Package natbib Warning: Citation `buonaiuto_early_2026' on page 4 undefined on 
-input line 61.
-
-<../figures/wildchrokie/empiricalData/mapSourcePop.pdf, id=394, 722.7pt x 433.6
-2pt>
-File: ../figures/wildchrokie/empiricalData/mapSourcePop.pdf Graphic file (type 
-pdf)
-<use ../figures/wildchrokie/empiricalData/mapSourcePop.pdf>
-Package pdftex.def Info: ../figures/wildchrokie/empiricalData/mapSourcePop.pdf 
- used on input line 67.
+ [3] [4 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figur
+es/climate/gsconceptualfig.pdf>]
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
+icalData/mapSourcePop.pdf, id=635, 722.7pt x 433.62pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+empiricalData/mapSourcePop.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
+mpiricalData/mapSourcePop.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/empiricalData/mapSourcePop.pdf  used on input line 67.
 (pdftex.def)             Requested size: 422.77664pt x 253.66338pt.
+ [5
 
-Package natbib Warning: Citation `fong_tim_2026' on page 4 undefined on input l
-ine 76.
-
-
-Package natbib Warning: Citation `radenPotentialIntraannualDensity2020a' on pag
-e 4 undefined on input line 78.
-
-[4
-
-]
-
-Package natbib Warning: Citation `arnoldarboretum_weather_2026' on page 5 undef
-ined on input line 84.
-
-
-Package natbib Warning: Citation `carroll_network_2026' on page 5 undefined on 
-input line 84.
-
-
-Package natbib Warning: Citation `nationalcentersforenvironmentalinformationnce
-i_north_2026' on page 5 undefined on input line 84.
-
-[5 <../figures/wildchrokie/empiricalData/mapSourcePop.pdf>]
-
-Package natbib Warning: Citation `gelman_data_2006' on page 6 undefined on inpu
-t line 98.
-
-
-Package natbib Warning: Citation `standevelopmentteam_rstan_2025' on page 6 und
-efined on input line 100.
-
-
-Package natbib Warning: Citation `nationalcentersforenvironmentalinformationnce
-i_north_2026' on page 6 undefined on input line 119.
-
-[6]
-
-Package natbib Warning: Citation `gelman_data_2006' on page 7 undefined on inpu
-t line 167.
-
-<../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf, id=459, 578.16pt 
+] [6 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+empiricalData/mapSourcePop.pdf>]
+[7] [8]
+<../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf, id=730, 578.16pt 
 x 722.7pt>
 File: ../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf Graphic file 
 (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/muALLbsppWline
-s.pdf  used on input line 244.
+s.pdf  used on input line 243.
 (pdftex.def)             Requested size: 375.80544pt x 469.74944pt.
 
-LaTeX Warning: Float too large for page by 2.1653pt on input line 247.
 
-<../figures/wildchrokie/growthModelsMain/muasite.pdf, id=462, 505.89pt x 289.08
+LaTeX Warning: Float too large for page by 6.11949pt on input line 246.
+
+<../figures/wildchrokie/growthModelsMain/muasite.pdf, id=733, 505.89pt x 289.08
 pt>
 File: ../figures/wildchrokie/growthModelsMain/muasite.pdf Graphic file (type pd
 f)
 <use ../figures/wildchrokie/growthModelsMain/muasite.pdf>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/muasite.pdf  u
-sed on input line 251.
+sed on input line 250.
 (pdftex.def)             Requested size: 375.80544pt x 214.74951pt.
-[7] [8 <../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf>] [9 <../fi
-gures/wildchrokie/growthModelsMain/muasite.pdf>]
+[9] [10 <../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf>] [11 <../
+figures/wildchrokie/growthModelsMain/muasite.pdf>] [12
 
-Package natbib Warning: Citation `chuine_processbased_2017' on page 10 undefine
-d on input line 263.
-
-
-Package natbib Warning: Citation `wang_simulation_1998' on page 10 undefined on
- input line 263.
-
-
-Package natbib Warning: Citation `buonaiuto_early_2026' on page 10 undefined on
- input line 263.
-
-
-Package natbib Warning: Citation `gaoEarlierStartThermal2022' on page 10 undefi
-ned on input line 269.
-
-
-Package natbib Warning: Citation `wheeler_snow_2016' on page 10 undefined on in
-put line 269.
-
-
-Package natbib Warning: Citation `richardson_terrestrial_2012' on page 10 undef
-ined on input line 269.
-
-
-Package natbib Warning: Citation `zweifel_are_2016' on page 10 undefined on inp
-ut line 269.
-
-
-Package natbib Warning: Citation `balducci_stem_2019' on page 10 undefined on i
-nput line 269.
-
-
-Package natbib Warning: Citation `bowmanEcology2023' on page 10 undefined on in
-put line 273.
-
-
-Package natbib Warning: Citation `furlow_alnus_1997' on page 10 undefined on in
-put line 273.
-
-
-Package natbib Warning: Citation `grime_evidence_1977' on page 10 undefined on 
-input line 273.
-
-
-Package natbib Warning: Citation `burns_silvics_1990' on page 10 undefined on i
-nput line 273.
-
-
-Package natbib Warning: Citation `burns_silvics_1990' on page 10 undefined on i
-nput line 273.
-
-
-Package natbib Warning: Citation `sweeneyComparisonTimingSpring2024' on page 10
- undefined on input line 275.
-
-
-Package natbib Warning: Citation `luu_importance_2024' on page 10 undefined on 
-input line 279.
-
-[10
-
-]
-
-Package natbib Warning: Citation `wolkovich_temperaturedependent_2013' on page 
-11 undefined on input line 282.
-
-
-Package natbib Warning: Citation `zettlemoyer_phenology_2019' on page 11 undefi
-ned on input line 282.
-
-
-Package natbib Warning: Citation `cavender-bares_diversification_2019' on page 
-11 undefined on input line 284.
-
-
-Package natbib Warning: Citation `buonaiuto_early_2026' on page 11 undefined on
- input line 284.
-
-
-Package natbib Warning: Citation `alberto_potential_2013' on page 11 undefined 
-on input line 284.
-
-
-Package natbib Warning: Citation `gaoEarlierStartThermal2022' on page 11 undefi
-ned on input line 288.
-
-
-Package natbib Warning: Citation `gaoEarlierStartThermal2022' on page 11 undefi
-ned on input line 288.
-
-
-Package natbib Warning: Citation `nationalcentersforenvironmentalinformationnce
-i_north_2026' on page 11 undefined on input line 288.
-
-
-Package natbib Warning: Citation `agel_drought_2025' on page 11 undefined on in
-put line 288.
-
-
-Package natbib Warning: Citation `cook_uncertainty_2011' on page 11 undefined o
-n input line 288.
-
-
-Package natbib Warning: Citation `agel_drought_2025' on page 11 undefined on in
-put line 288.
-
-[11] [12]
-Overfull \hbox (41.11555pt too wide) in paragraph at lines 317--328
+] [13] [14]
+Overfull \hbox (38.84131pt too wide) in paragraph at lines 306--317
  [][] 
  []
 
-<../figures/wildchrokie/empiricalData/phenoTimeseries.pdf, id=562, 433.62pt x 5
-78.16pt>
-File: ../figures/wildchrokie/empiricalData/phenoTimeseries.pdf Graphic file (ty
-pe pdf)
-<use ../figures/wildchrokie/empiricalData/phenoTimeseries.pdf>
-Package pdftex.def Info: ../figures/wildchrokie/empiricalData/phenoTimeseries.p
-df  used on input line 333.
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
+icalData/phenoTimeseries.pdf, id=916, 433.62pt x 578.16pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+empiricalData/phenoTimeseries.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
+mpiricalData/phenoTimeseries.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/empiricalData/phenoTimeseries.pdf  used on input line 322.
 (pdftex.def)             Requested size: 281.85587pt x 375.826pt.
-<../figures/wildchrokie/empiricalData/rwXyearAll.pdf, id=563, 722.7pt x 578.16p
-t>
-File: ../figures/wildchrokie/empiricalData/rwXyearAll.pdf Graphic file (type pd
-f)
-<use ../figures/wildchrokie/empiricalData/rwXyearAll.pdf>
-Package pdftex.def Info: ../figures/wildchrokie/empiricalData/rwXyearAll.pdf  u
-sed on input line 340.
-(pdftex.def)             Requested size: 375.80544pt x 300.64493pt.
-[13
+</Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empir
+icalData/rwXyearAll.pdf, id=917, 722.7pt x 578.16pt>
+File: /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/
+empiricalData/rwXyearAll.pdf Graphic file (type pdf)
+<use /Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/e
+mpiricalData/rwXyearAll.pdf>
+Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/wildchroki
+e/analyses/figures/empiricalData/rwXyearAll.pdf  used on input line 329.
+(pdftex.def)             Requested size: 469.75502pt x 375.80836pt.
+[15
 
-] [14 <../figures/wildchrokie/empiricalData/phenoTimeseries.pdf>] [15 <../figur
-es/wildchrokie/empiricalData/rwXyearAll.pdf>]
-Overfull \hbox (21.31117pt too wide) in paragraph at lines 378--388
+] [16 </Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures
+/empiricalData/phenoTimeseries.pdf>] [17 </Users/christophe_rouleau-desrochers/
+github/wildchrokie/analyses/figures/empiricalData/rwXyearAll.pdf>]
+Overfull \hbox (9.07379pt too wide) in paragraph at lines 367--377
  [][] 
  []
 
 
-Overfull \hbox (6.63708pt too wide) in paragraph at lines 397--422
+Overfull \hbox (8.58669pt too wide) in paragraph at lines 386--411
  [][] 
  []
 
-<../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf, id=592, 650.43pt
+<../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf, id=946, 650.43pt
  x 433.62pt>
 File: ../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf Graphic file
  (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/FullVSRestrict
-ed.pdf  used on input line 461.
+ed.pdf  used on input line 450.
 (pdftex.def)             Requested size: 469.75502pt x 313.17879pt.
 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg, id=
-593, 2409.0pt x 2409.0pt>
+947, 2409.0pt x 2409.0pt>
 File: ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg
  Graphic file (type jpg)
 <use ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg>
 
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/growthModelSlo
-pesperSppFacet.jpeg  used on input line 468.
+pesperSppFacet.jpeg  used on input line 457.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.jpeg, 
-id=594, 2409.0pt x 2409.0pt>
+id=948, 2409.0pt x 2409.0pt>
 File: ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.j
 peg Graphic file (type jpg)
 <use ../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL.jp
 eg>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/growthModelSlo
-pesperSppFacetGSL.jpeg  used on input line 475.
+pesperSppFacetGSL.jpeg  used on input line 464.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf, id=
-595, 592.2125pt x 614.295pt>
+949, 592.2125pt x 614.295pt>
 File: ../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf
  Graphic file (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBYspp.pdf>
 
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/meanPlotGrowth
-GDD_treeidBYspp.pdf  used on input line 482.
+GDD_treeidBYspp.pdf  used on input line 471.
 (pdftex.def)             Requested size: 375.80544pt x 389.82927pt.
-<../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg, id=596, 2007.5p
+<../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg, id=950, 2007.5p
 t x 2007.5pt>
 File: ../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg Graphic fil
 e (type jpg)
 <use ../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/boxplotRingWid
-th.jpeg  used on input line 489.
+th.jpeg  used on input line 478.
 (pdftex.def)             Requested size: 469.75502pt x 469.74086pt.
-<../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf, id=597, 867.
+<../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf, id=951, 867.
 24pt x 578.16pt>
 File: ../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf Graphic 
 file (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/boxplotPredict
-orsAll.pdf  used on input line 496.
+orsAll.pdf  used on input line 485.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-<../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf, id=598, 542.02
+<../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf, id=952, 542.02
 5pt x 433.62pt>
 File: ../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf Graphic fi
 le (type pdf)
 <use ../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf>
 Package pdftex.def Info: ../figures/wildchrokie/growthModelsMain/zscored/muALLb
-sppZ.pdf  used on input line 503.
+sppZ.pdf  used on input line 492.
 (pdftex.def)             Requested size: 375.80544pt x 300.65375pt.
-) [16
+) [18
 
-] [17] [18] [19 <../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf>]
- [20 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg
->] [21 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL
-.jpeg>] [22 <../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBY
-spp.pdf>] [23 <../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg>] 
-[24 <../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf>]
-[25 <../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf>]
+] [19] [20] [21 <../figures/wildchrokie/growthModelsMain/FullVSRestricted.pdf>]
+ [22 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacet.jpeg
+>] [23 <../figures/wildchrokie/growthModelsMain/growthModelSlopesperSppFacetGSL
+.jpeg>] [24 <../figures/wildchrokie/growthModelsMain/meanPlotGrowthGDD_treeidBY
+spp.pdf>] [25 <../figures/wildchrokie/growthModelsMain/boxplotRingWidth.jpeg>] 
+[26 <../figures/wildchrokie/growthModelsMain/boxplotPredictorsAll.pdf>]
+[27 <../figures/wildchrokie/growthModelsMain/zscored/muALLbsppZ.pdf>]
 \openout2 = `chapter2.aux'.
 
 
 (./chapter2.tex
 Chapter 2.
+[28
+
+
+
+
+] [29]
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/empiricalData/tree_species_map.pdf, id=688, 361.35pt x 361.35pt>
+s/empiricalData/tree_species_map.pdf, id=1118, 361.35pt x 361.35pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/empiricalData/tree_species_map.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
 gures/empiricalData/tree_species_map.pdf>
 Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringtree
 spotters/analyses/figures/empiricalData/tree_species_map.pdf  used on input lin
-e 42.
+e 52.
 (pdftex.def)             Requested size: 375.80544pt x 375.80617pt.
-[26
-
-
-
-
-]
-
-Package natbib Warning: Citation `fong_tim_2026' on page 27 undefined on input 
-line 57.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-[27 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
-gures/empiricalData/tree_species_map.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Package natbib Warning: Citation `arnoldarboretum_weather_2026' on page 28 unde
-fined on input line 64.
-
-
-Package natbib Warning: Citation `carroll_network_2026' on page 28 undefined on
- input line 64.
-
-
-Package natbib Warning: Citation `nationalcentersforenvironmentalinformationnce
-i_north_2026' on page 28 undefined on input line 64.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-Package natbib Warning: Citation `gelman_data_2006' on page 28 undefined on inp
-ut line 77.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
-
- []
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 151--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--174
-
- []
-
-<../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf, id=756, 
-614.295pt x 650.43pt>
+ [30 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
+igures/empiricalData/tree_species_map.pdf>] [31] [32] [33]
+<../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf, id=1199,
+ 650.43pt x 686.565pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf Grap
 hic file (type pdf)
 <use ../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmuALL
-bsppWlines.pdf  used on input line 182.
-(pdftex.def)             Requested size: 375.80544pt x 397.913pt.
+bsppWlines.pdf  used on input line 195.
+(pdftex.def)             Requested size: 375.80544pt x 396.68893pt.
 <../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviousYR.
-pdf, id=761, 433.62pt x 650.43pt>
+pdf, id=1204, 433.62pt x 650.43pt>
 File: ../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSprevio
 usYR.pdf Graphic file (type pdf)
 <use ../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviou
 sYR.pdf>
 Package pdftex.def Info: ../figures/coringtreespotters/growthPreviousYearModel/
-bsppCurrentVSpreviousYR.pdf  used on input line 189.
+bsppCurrentVSpreviousYR.pdf  used on input line 202.
 (pdftex.def)             Requested size: 281.85587pt x 422.80426pt.
-[30]
+ [34]
+[35 <../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf>]
+[36 <../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviou
+sYR.pdf>] [37
 
-LaTeX Warning: Text page 31 contains only floats.
-
-[31 <../figures/coringtreespotters/growthModelsMain/TSmuALLbsppWlines.pdf>]
-[32 <../figures/coringtreespotters/growthPreviousYearModel/bsppCurrentVSpreviou
-sYR.pdf>] [33
-
-]
+] [38]
 </Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/figure
-s/empiricalData/rwXyearRestricted.pdf, id=805, 578.16pt x 722.7pt>
+s/empiricalData/rwXyearRestricted.pdf, id=1280, 578.16pt x 722.7pt>
 File: /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/f
 igures/empiricalData/rwXyearRestricted.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/fi
 gures/empiricalData/rwXyearRestricted.pdf>
 Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringTree
 spotters/analyses/figures/empiricalData/rwXyearRestricted.pdf  used on input li
-ne 223.
+ne 244.
 (pdftex.def)             Requested size: 281.85587pt x 352.31758pt.
-
-
-Package natbib Warning: Citation `burns_silvics_1990' on page 34 undefined on i
-nput line 232.
-
-
-Package natbib Warning: Citation `burns_silvics_1990' on page 34 undefined on i
-nput line 232.
-
-
-Overfull \hbox (10.5113pt too wide) in paragraph at lines 234--252
- [][] 
- []
-
-[34
+ [39
 
  </Users/christophe_rouleau-desrochers/github/coringTreespotters/analyses/figur
-es/empiricalData/rwXyearRestricted.pdf>] [35]
+es/empiricalData/rwXyearRestricted.pdf>] [40]
 
-LaTeX Warning: Float too large for page by 92.21759pt on input line 394.
+LaTeX Warning: Float too large for page by 99.2108pt on input line 415.
 
-<../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg, id=830, 1606.0p
-t x 1606.0pt>
+<../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg, id=1308, 1606.0
+pt x 1606.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg Graphic fil
 e (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmuaye
-ar.jpeg  used on input line 448.
+ar.jpeg  used on input line 469.
 (pdftex.def)             Requested size: 234.8775pt x 234.86124pt.
-<../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg, id=833, 
-2409.0pt x 2007.5pt>
+<../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg, id=1311,
+ 2409.0pt x 2007.5pt>
 File: ../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg Grap
 hic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/boxplot
-RingWidth.jpeg  used on input line 455.
+RingWidth.jpeg  used on input line 476.
 (pdftex.def)             Requested size: 469.75502pt x 391.44562pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-DDtree.jpeg, id=834, 2409.0pt x 2409.0pt>
+DDtree.jpeg, id=1312, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGDDtree.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
 cetGDDtree.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
-hModelSlopesperSppFacetGDDtree.jpeg  used on input line 462.
+hModelSlopesperSppFacetGDDtree.jpeg  used on input line 483.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-SLtree.jpeg, id=835, 2409.0pt x 2409.0pt>
+SLtree.jpeg, id=1313, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGSLtree.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
 cetGSLtree.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
-hModelSlopesperSppFacetGSLtree.jpeg  used on input line 469.
+hModelSlopesperSppFacetGSLtree.jpeg  used on input line 490.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-DDyr.jpeg, id=836, 2409.0pt x 2409.0pt>
+DDyr.jpeg, id=1314, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGDDyr.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
 cetGDDyr.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
-hModelSlopesperSppFacetGDDyr.jpeg  used on input line 476.
+hModelSlopesperSppFacetGDDyr.jpeg  used on input line 497.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetG
-SLyr.jpeg, id=837, 2409.0pt x 2409.0pt>
+SLyr.jpeg, id=1315, 2409.0pt x 2409.0pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppF
 acetGSLyr.jpeg Graphic file (type jpg)
 <use ../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFa
 cetGSLyr.jpeg>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSgrowt
-hModelSlopesperSppFacetGSLyr.jpeg  used on input line 483.
+hModelSlopesperSppFacetGSLyr.jpeg  used on input line 504.
 (pdftex.def)             Requested size: 375.80544pt x 375.78044pt.
 <../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidBYspp
-.pdf, id=838, 650.43pt x 722.7pt>
+.pdf, id=1316, 650.43pt x 722.7pt>
 File: ../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeid
 BYspp.pdf Graphic file (type pdf)
 <use ../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidB
 Yspp.pdf>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/TSmeanP
-lotGrowthGDD_treeidBYspp.pdf  used on input line 490.
+lotGrowthGDD_treeidBYspp.pdf  used on input line 511.
 (pdftex.def)             Requested size: 375.80544pt x 417.5673pt.
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/growthModelsMain/FullVSRestricted.pdf, id=839, 650.43pt x 433.62pt>
+s/growthModelsMain/FullVSRestricted.pdf, id=1317, 650.43pt x 433.62pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/growthModelsMain/FullVSRestricted.pdf Graphic file (type pdf)
 <use /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/fi
 gures/growthModelsMain/FullVSRestricted.pdf>
 Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringtree
 spotters/analyses/figures/growthModelsMain/FullVSRestricted.pdf  used on input 
-line 497.
+line 518.
 (pdftex.def)             Requested size: 469.75502pt x 313.17879pt.
 </Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/figure
-s/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf, id=840, 505.89pt x 4
-33.62pt>
+s/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf, id=1318, 505.89pt x 
+433.62pt>
 File: /Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses/f
 igures/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf Graphic file (ty
 pe pdf)
@@ -1413,45 +1027,45 @@ pe pdf)
 gures/growthModelsMain/budburstVSLeafout/DporousVSRporous.pdf>
 Package pdftex.def Info: /Users/christophe_rouleau-desrochers/github/coringtree
 spotters/analyses/figures/growthModelsMain/budburstVSLeafout/DporousVSRporous.p
-df  used on input line 504.
+df  used on input line 525.
 (pdftex.def)             Requested size: 375.80544pt x 322.1243pt.
-<../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf, id=841,
- 542.025pt x 433.62pt>
+<../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf, id=1319
+, 542.025pt x 433.62pt>
 File: ../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf Gra
 phic file (type pdf)
 <use ../figures/coringtreespotters/growthModelsMain/zscored/muALLbsppZ.pdf>
 Package pdftex.def Info: ../figures/coringtreespotters/growthModelsMain/zscored
-/muALLbsppZ.pdf  used on input line 511.
+/muALLbsppZ.pdf  used on input line 532.
 (pdftex.def)             Requested size: 375.80544pt x 300.65375pt.
-<../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf, id=842, 433.62pt x 43
-3.62pt>
+<../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf, id=1320, 433.62pt x 4
+33.62pt>
 File: ../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf Graphic file (typ
 e pdf)
 <use ../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pdf>
 Package pdftex.def Info: ../figures/coringtreespotters/SOSonEOS/bsppSOSonEOS.pd
-f  used on input line 518.
+f  used on input line 539.
 (pdftex.def)             Requested size: 375.80544pt x 375.8238pt.
-) [36
+) [41
 
- <../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg>] [37 <../figur
-es/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg>] [38]
-[39] [40] [41 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlop
-esperSppFacetGDDtree.jpeg>] [42 <../figures/coringtreespotters/growthModelsMain
-/TSgrowthModelSlopesperSppFacetGSLtree.jpeg>] [43 <../figures/coringtreespotter
-s/growthModelsMain/TSgrowthModelSlopesperSppFacetGDDyr.jpeg>] [44 <../figures/c
+ <../figures/coringtreespotters/growthModelsMain/TSmuayear.jpeg>] [42 <../figur
+es/coringtreespotters/growthModelsMain/boxplotRingWidth.jpeg>] [43]
+[44] [45] [46 <../figures/coringtreespotters/growthModelsMain/TSgrowthModelSlop
+esperSppFacetGDDtree.jpeg>] [47 <../figures/coringtreespotters/growthModelsMain
+/TSgrowthModelSlopesperSppFacetGSLtree.jpeg>] [48 <../figures/coringtreespotter
+s/growthModelsMain/TSgrowthModelSlopesperSppFacetGDDyr.jpeg>] [49 <../figures/c
 oringtreespotters/growthModelsMain/TSgrowthModelSlopesperSppFacetGSLyr.jpeg>]
-[45 <../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidB
-Yspp.pdf>] [46 </Users/christophe_rouleau-desrochers/github/coringtreespotters/
-analyses/figures/growthModelsMain/FullVSRestricted.pdf>] [47 </Users/christophe
+[50 <../figures/coringtreespotters/growthModelsMain/TSmeanPlotGrowthGDD_treeidB
+Yspp.pdf>] [51 </Users/christophe_rouleau-desrochers/github/coringtreespotters/
+analyses/figures/growthModelsMain/FullVSRestricted.pdf>] [52 </Users/christophe
 _rouleau-desrochers/github/coringtreespotters/analyses/figures/growthModelsMain
-/budburstVSLeafout/DporousVSRporous.pdf>] [48 <../figures/coringtreespotters/gr
-owthModelsMain/zscored/muALLbsppZ.pdf>] [49 <../figures/coringtreespotters/SOSo
+/budburstVSLeafout/DporousVSRporous.pdf>] [53 <../figures/coringtreespotters/gr
+owthModelsMain/zscored/muALLbsppZ.pdf>] [54 <../figures/coringtreespotters/SOSo
 nEOS/bsppSOSonEOS.pdf>]
 \openout2 = `chapterConclusion.aux'.
 
  (./chapterConclusion.tex
 Chapter 3.
-) [50
+) [55
 
 
 
@@ -1460,59 +1074,76 @@ Chapter 3.
 \tf@brf=\write8
 \openout8 = `diss.brf'.
 
- [51
+ [56
 
 
 
-] [52]) [53]
+] [57] [58] [59]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
+95.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 395.
+ [60] [61]
+[62] [63]) [64]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 Appendix A.
-) [54
+) [65
 
 
-]
-
-Package natbib Warning: There were undefined citations.
-
-(./diss.aux (./abstract.aux) (./laysummary.aux) (./preface.aux) (./ack.aux)
-(./chapter1.aux) (./chapter2.aux) (./chapterConclusion.aux) (./appendix.aux))
+] (./diss.aux (./abstract.aux) (./laysummary.aux) (./preface.aux)
+(./ack.aux) (./chapter1.aux) (./chapter2.aux) (./chapterConclusion.aux)
+(./appendix.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 17FD1191EF0225831912BACCA35162EF;1523.
+(rerunfilecheck)             Checksum: 5B5FD23B7F1390493A154821470B4EFF;2184.
 Package rerunfilecheck Info: File `diss.brf' has not changed.
-(rerunfilecheck)             Checksum: 527351EC960A627B88F3250DA4F996FD;3034.
+(rerunfilecheck)             Checksum: 3A8EF7329F2140D3A19FFBACD0CB6D82;9356.
  ) 
 Here is how much of TeX's memory you used:
- 16434 strings out of 474116
- 273065 string characters out of 5743681
+ 16786 strings out of 474116
+ 286923 string characters out of 5743681
  1971187 words of memory out of 5000000
- 38253 multiletter control sequences out of 15000+600000
- 599361 words of font info for 116 fonts, out of 8000000 for 9000
+ 38585 multiletter control sequences out of 15000+600000
+ 567931 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,13n,93p,1723b,737s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on diss.pdf (69 pages, 6828853 bytes).
+ 90i,13n,93p,1741b,864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on diss.pdf (81 pages, 9178606 bytes).
 PDF statistics:
- 1111 PDF objects out of 1200 (max. 8388607)
- 909 compressed objects within 10 object streams
- 196 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1759 PDF objects out of 2073 (max. 8388607)
+ 1451 compressed objects within 15 object streams
+ 260 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

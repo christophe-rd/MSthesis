@@ -15,6 +15,6 @@ Then save
 Then run: 
 `chmod +x update_thesis_chapter.sh`
 And:
-`./update_thesis_chapter.sh`
+./update_thesis_chapter.sh
 
 Then render `diss.tex`
