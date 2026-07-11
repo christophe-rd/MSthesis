@@ -4,10 +4,10 @@
 \contentsline {chapter}{Table of Contents}{vii}{chapter*.5}%
 \contentsline {chapter}{List of Tables}{viii}{chapter*.6}%
 \contentsline {chapter}{List of Figures}{x}{chapter*.7}%
-\contentsline {chapter}{Glossary}{xv}{chapter*.8}%
-\contentsline {chapter}{Acknowledgments}{xvi}{chapter*.9}%
+\contentsline {chapter}{Glossary}{xvi}{chapter*.8}%
+\contentsline {chapter}{Acknowledgments}{xvii}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Warmer and longer growing seasons increase growth for juvenile trees in a common garden}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Weak response of warmer growing seasons on mature tree growth}{28}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Weak response of warmer growing seasons on tree growth across 11 species of adult trees in an urban garden}{28}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Concluding chapter}{55}{chapter.3}%
-\contentsline {chapter}{Bibliography}{56}{chapter*.48}%
-\contentsline {chapter}{\numberline {A}Supporting Materials}{65}{appendix.A}%
+\contentsline {chapter}{Bibliography}{57}{chapter*.49}%
+\contentsline {chapter}{\numberline {A}Supporting Materials}{66}{appendix.A}%

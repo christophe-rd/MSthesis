@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -78,6 +78,14 @@ Buonaiuto, D., Chamberlain, C., Loughnan, D. \& Wolkovich, E. (2026) Early
 Burns, R.M., Honkala, B.H. \& {[Technical coordinators]} (1990) \emph{Silvics
   of {North} {America}: 2. {Hardwoods}}. United States Department of
   Agriculture (USDA), Forest Service, Agriculture Handbook 654.
+
+\bibitem[{Cabon \emph{et~al.}(2020)Cabon, Fernández‐de‐Uña,
+  Gea‐Izquierdo, Meinzer, Woodruff, Martínez‐Vilalta \&
+  De~Cáceres}]{cabon_water_2020}
+Cabon, A., Fernández‐de‐Uña, L., Gea‐Izquierdo, G., Meinzer, F.C.,
+  Woodruff, D.R., Martínez‐Vilalta, J. \& De~Cáceres, M. (2020) Water
+  potential control of turgor‐driven tracheid enlargement in {Scots} pine at
+  its xeric distribution edge. \emph{New Phytologist} \textbf{225}, 209--221.
 
 \bibitem[{Cabon \emph{et~al.}(2022)Cabon, Kannenberg, Arain, Babst, Baldocchi,
   Belmecheri, Delpierre, Guerrieri, Maxwell, McKenzie, Meinzer, Moore, Pappas,
@@ -388,10 +396,7 @@ Harris, N.L., Gibbs, D.A., Baccini, A., Birdsey, R.A., De~Bruin, S., Farina,
 Hessl, A.E., Richardson, A.D., Filwett, R., Andreu‐Hayles, L., Walker, M.,
   Oelkers, R., Robison, A.S., Leshyk, V.O. \& Carbone, M.S. (2026) Carbon
   uptake, storage, and allocation patterns contribute to blurring of annual
-  {\textless}span
-  style="font-variant:small-caps;"{\textgreater}$^{\textrm{14}}$ {C}
-  {\textless}/span{\textgreater} signals in tree rings. \emph{New Phytologist}
-  p. nph.70868.
+  {14C} signals in tree rings. \emph{New Phytologist} p. nph.70868.
 
 \bibitem[{Jeong \& Medvigy(2014)}]{jeong_macroscale_2014}
 Jeong, S. \& Medvigy, D. (2014) Macroscale prediction of autumn leaf coloration
@@ -406,6 +411,11 @@ Keenan, T.F., Gray, J., Friedl, M.A., Toomey, M., Bohrer, G., Hollinger, D.Y.,
   Richardson, A.D. (2014) Net carbon uptake has increased through
   warming-induced changes in temperate forest phenology. \emph{Nature Climate
   Change} \textbf{4}, 598--604.
+
+\bibitem[{Kitin \& Funada(2016)}]{kitin_earlywood_2016}
+Kitin, P. \& Funada, R. (2016) Earlywood vessels in ring-porous trees become
+  functional for water transport after bud burst and before the maturation of
+  the current-year leaves. \emph{IAWA Journal} \textbf{37}, 315--331.
 
 \bibitem[{Körner \emph{et~al.}(2023)Körner, Möhl \&
   Hiltbrunner}]{korner_four_2023}
@@ -467,6 +477,12 @@ Luu, H., Ris~Lambers, J.H., Lutz, J.A., Metz, M. \& Snell, R.S. (2024) The
   forests in the {Pacific} {Northwest}. \emph{Philosophical Transactions of the
   Royal Society B: Biological Sciences} \textbf{379}, 20230016.
 
+\bibitem[{Lv \emph{et~al.}(2025)Lv, Meng, Huang, Li, Wang \&
+  Li}]{lv_xylem_2025}
+Lv, S., Meng, Y., Huang, N., Li, L., Wang, J. \& Li, Y. (2025) Xylem anatomy
+  differentiation explains coordinated variation of economic and hydraulic
+  traits in urban tree species. \emph{BMC Plant Biology} \textbf{25}, 1549.
+
 \bibitem[{Marchand \emph{et~al.}(2021)Marchand, Dox, Gričar, Prislan, Van
   Den~Bulcke, Fonti \& Campioli}]{marchand_timing_2021}
 Marchand, L.J., Dox, I., Gričar, J., Prislan, P., Van Den~Bulcke, J., Fonti,
@@ -481,6 +497,12 @@ Matula, R., Knířová, S., Vítámvás, J., Šrámek, M., Kníř, T.,
   growth dynamics drive a decline in productivity of temperate trees in
   {Central} {European} forest under warmer climate. \emph{Science of The Total
   Environment} \textbf{905}, 166906.
+
+\bibitem[{Mensah \& Petersson(2024)}]{mensah_carbon_2024}
+Mensah, A.A. \& Petersson, H. (2024) Carbon concentration of living tree
+  biomass of \textit{{Pinus} sylvestris} , \textit{{Picea} abies} ,
+  \textit{{Betula} pendula} and \textit{{Betula} pubescens} in {Sweden}.
+  \emph{Scandinavian Journal of Forest Research} \textbf{39}, 145--155.
 
 \bibitem[{Menzel \emph{et~al.}(2006)Menzel, Sparks, Estrella, Koch, Aasa, Ahas,
   Alm‐Kübler, Bissolli, Braslavská, Briede, Chmielewski, Crepinsek, Curnel,
@@ -535,13 +557,6 @@ Parmesan, C., Ryrholm, N., Stefanescu, C., Hill, J.K., Thomas, C.D., Descimon,
   J.A. \& Warren, M. (1999) Poleward shifts in geographical ranges of butterfly
   species associated with regional warming. \emph{Nature} \textbf{399},
   579--583.
-
-\bibitem[{Peters \emph{et~al.}(2020)Peters, Andrew, Canadell, Friedlingstein,
-  Jackson, Korsbakken, Le~Quéré \& Peregon}]{peters_carbon_2020}
-Peters, G.P., Andrew, R.M., Canadell, J.G., Friedlingstein, P., Jackson, R.B.,
-  Korsbakken, J.I., Le~Quéré, C. \& Peregon, A. (2020) Carbon dioxide
-  emissions continue to grow amidst slowly emerging climate policies.
-  \emph{Nature Climate Change} \textbf{10}, 3--6.
 
 \bibitem[{Piao \emph{et~al.}(2019)Piao, Liu, Chen, Janssens, Fu, Dai, Liu,
   Lian, Shen \& Zhu}]{piao_plant_2019}
@@ -648,6 +663,12 @@ Sweeney, C.J., Butler, F. \& Wingler, A. (2024) Comparison of the timing of
   spring phenological events between phenological garden trees and wild
   populations. \emph{Journal of Plant Ecology} \textbf{17}, rtae008.
 
+\bibitem[{Taneda \& Sperry(2008)}]{taneda_casestudy_2008}
+Taneda, H. \& Sperry, J.S. (2008) A case-study of water transport in
+  co-occurring ring- versus diffuse-porous trees: contrasts in water-status,
+  conducting capacity, cavitation and vessel refilling. \emph{Tree Physiology}
+  \textbf{28}, 1641--1651.
+
 \bibitem[{Wang \& Engel(1998)}]{wang_simulation_1998}
 Wang, E. \& Engel, T. (1998) Simulation of phenological development of wheat
   crops. \emph{Agricultural Systems} \textbf{58}, 1--24.
@@ -724,6 +745,13 @@ Zohner, C.M., Mirzagholi, L., Renner, S.S., Mo, L., Rebindaine, D., Bucher, R.,
 Zweifel, R., Haeni, M., Buchmann, N. \& Eugster, W. (2016) Are trees able to
   grow in periods of stem shrinkage? \emph{New Phytologist} \textbf{211},
   839--849.
+
+\bibitem[{Čufar \emph{et~al.}(2015)Čufar, De~Luis, Prislan, Gričar,
+  Črepinšek, Merela \& Kajfež-Bogataj}]{cufar_variations_2015}
+Čufar, K., De~Luis, M., Prislan, P., Gričar, J., Črepinšek, Z., Merela, M.
+  \& Kajfež-Bogataj, L. (2015) Do variations in leaf phenology affect radial
+  growth variations in {Fagus} sylvatica? \emph{International Journal of
+  Biometeorology} \textbf{59}, 1127--1132.
 
 \bibitem[{Čufar \emph{et~al.}(2008)Čufar, Prislan, De~Luis \&
   Gričar}]{cufar_treering_2008}
