@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{102}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -668,6 +668,11 @@ Taneda, H. \& Sperry, J.S. (2008) A case-study of water transport in
   co-occurring ring- versus diffuse-porous trees: contrasts in water-status,
   conducting capacity, cavitation and vessel refilling. \emph{Tree Physiology}
   \textbf{28}, 1641--1651.
+
+\bibitem[{Vitasse(2013)}]{vitasse_ontogenic_2013}
+Vitasse, Y. (2013) Ontogenic changes rather than difference in temperature
+  cause understory trees to leaf out earlier. \emph{New Phytologist}
+  \textbf{198}, 149--155.
 
 \bibitem[{Wang \& Engel(1998)}]{wang_simulation_1998}
 Wang, E. \& Engel, T. (1998) Simulation of phenological development of wheat
