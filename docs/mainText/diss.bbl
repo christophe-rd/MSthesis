@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{106}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -374,6 +374,13 @@ Grime, J.P. (1977) Evidence for the {Existence} of {Three} {Primary}
   {Evolutionary} {Theory}. \emph{The American Naturalist} \textbf{111},
   1169--1194.
 
+\bibitem[{Grover \emph{et~al.}(2023)Grover, Forrester, Keyser, King \&
+  Altman}]{grover_growth_2023}
+Grover, Z., Forrester, J., Keyser, T., King, J. \& Altman, J. (2023) Growth
+  response, climate sensitivity and carbon storage vary with wood porosity in a
+  southern {Appalachian} mixed hardwood forest. \emph{Agricultural and Forest
+  Meteorology} \textbf{332}, 109358.
+
 \bibitem[{Gunderson \emph{et~al.}(2012)Gunderson, Edwards, Walker, O'Hara,
   Campion \& Hanson}]{gunderson_forest_2012}
 Gunderson, C.A., Edwards, N.T., Walker, A.V., O'Hara, K.H., Campion, C.M. \&
@@ -515,6 +522,14 @@ Menzel, A., Sparks, T.H., Estrella, N., Koch, E., Aasa, A., Ahas, R.,
   M., Susnik, A., Van~Vliet, A.J.H., Wielgolaski, F., Zach, S. \& Zust, A.
   (2006) European phenological response to climate change matches the warming
   pattern. \emph{Global Change Biology} \textbf{12}, 1969--1976.
+
+\bibitem[{Michelot \emph{et~al.}(2012)Michelot, Simard, Rathgeber, Dufrene \&
+  Damesin}]{michelot_comparing_2012}
+Michelot, A., Simard, S., Rathgeber, C., Dufrene, E. \& Damesin, C. (2012)
+  Comparing the intra-annual wood formation of three {European} species
+  ({Fagus} sylvatica, {Quercus} petraea and {Pinus} sylvestris) as related to
+  leaf phenology and non-structural carbohydrate dynamics. \emph{Tree
+  Physiology} \textbf{32}, 1033--1045.
 
 \bibitem[{Monson \emph{et~al.}(2018)Monson, Szejner, Belmecheri, Morino \&
   Wright}]{monson_finding_2018}
@@ -678,6 +693,11 @@ Vitasse, Y. (2013) Ontogenic changes rather than difference in temperature
 Wang, E. \& Engel, T. (1998) Simulation of phenological development of wheat
   crops. \emph{Agricultural Systems} \textbf{58}, 1--24.
 
+\bibitem[{Wang \emph{et~al.}(1992)Wang, Ives \& Lechowicz}]{wang_relation_1992}
+Wang, J., Ives, N.E. \& Lechowicz, M.J. (1992) The {Relation} of {Foliar}
+  {Phenology} to {Xylem} {Embolism} in {Trees}. \emph{Functional Ecology}
+  \textbf{6}, 469.
+
 \bibitem[{Wang \emph{et~al.}(2025)Wang, Qin, Zhang, Yang, Cabon, Wang, Zhou,
   Zhang, Fonti \& Huang}]{wang_seasonal_2025}
 Wang, W., Qin, L., Zhang, T., Yang, F., Cabon, A., Wang, Z., Zhou, P., Zhang,
@@ -750,6 +770,12 @@ Zohner, C.M., Mirzagholi, L., Renner, S.S., Mo, L., Rebindaine, D., Bucher, R.,
 Zweifel, R., Haeni, M., Buchmann, N. \& Eugster, W. (2016) Are trees able to
   grow in periods of stem shrinkage? \emph{New Phytologist} \textbf{211},
   839--849.
+
+\bibitem[{Zweifel \emph{et~al.}(2006)Zweifel, Zimmermann, Zeugin \&
+  Newbery}]{zweifel_intraannual_2006}
+Zweifel, R., Zimmermann, L., Zeugin, F. \& Newbery, D.M. (2006) Intra-annual
+  radial growth and water relations of trees: implications towards a growth
+  mechanism. \emph{Journal of Experimental Botany} \textbf{57}, 1445--1459.
 
 \bibitem[{Čufar \emph{et~al.}(2015)Čufar, De~Luis, Prislan, Gričar,
   Črepinšek, Merela \& Kajfež-Bogataj}]{cufar_variations_2015}

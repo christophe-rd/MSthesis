@@ -13,7 +13,7 @@ Go to `~MSthesis/docs/outline`
 Then save
 
 Then run: 
-`chmod +x update_thesis_chapter.sh`
+chmod +x update_thesis_chapter.sh
 And:
 ./update_thesis_chapter.sh
 
