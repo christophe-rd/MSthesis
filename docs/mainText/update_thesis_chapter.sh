@@ -48,14 +48,48 @@ inside && !skip && !titleblock &&
 !/^\\maketitle/
 ' "$SOURCE" > "$DEST"
 sed -i '' "1s/^/\\\\chapter{$TITLE}\n\\\\label{ch:CoringTreespotters}\n/" "$DEST"
-
 # Remove the Ball command since it's already defined in chapter 1
 sed -i '' '/^\\newcommand{\\Ball}/d' "$DEST"
-
 # Rewrite figure paths to match the rsync destination below
 sed -i '' 's|\.\./\.\./analyses/figures/|../figures/coringtreespotters/|g' "$DEST"
 echo "Updated $DEST"
 
+##########################################
+### Extract Supplemental Material      ###
+### out of each chapter into appendix2 ###
+##########################################
+APPENDIX="$HOME/github/MSthesis/docs/mainText/appendix2.tex"
+
+echo "\\chapter{Supplemental Material}" > "$APPENDIX"
+echo "" >> "$APPENDIX"
+
+extract_supplemental () {
+  local CHAPTER_FILE="$1"
+
+  awk '
+    /\\section\*?\{Supplemental( material)?\}/ {found=1; next}
+    /\\clearpage/ && !found {next}
+    /\\setcounter\{table\}\{0\}/ {next}
+    /\\renewcommand\{\\thetable\}\{S\\arabic\{table\}\}/ {next}
+    /\\setcounter\{figure\}\{0\}/ {next}
+    /\\renewcommand\{\\thefigure\}\{S\\arabic\{figure\}\}/ {next}
+    found
+  ' "$CHAPTER_FILE" > /tmp/supp_extract.tex
+
+  if [ -s /tmp/supp_extract.tex ]; then
+    cat /tmp/supp_extract.tex >> "$APPENDIX"
+    echo "" >> "$APPENDIX"
+    sed -i '' '/\\section\*\{Supplemental\}/,$d;/\\section\{Supplemental material\}/,$d' "$CHAPTER_FILE"
+    echo "Extracted supplemental material from $CHAPTER_FILE into $APPENDIX"
+  else
+    echo "No supplemental material section found in $CHAPTER_FILE"
+  fi
+}
+
+extract_supplemental "$HOME/github/MSthesis/docs/mainText/chapter1.tex"
+extract_supplemental "$HOME/github/MSthesis/docs/mainText/chapter2.tex"
+
+rm -f /tmp/supp_extract.tex
 
 # Copy figures and delete what's currently in that directory
 rsync -av --delete \
