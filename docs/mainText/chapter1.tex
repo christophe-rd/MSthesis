@@ -9,12 +9,12 @@
 \newcommand{\Bpap}{\textit{B. papyrifera}}
 \newcommand{\Bpop}{\textit{B. populifolia}}
 
-
+\setcounter{secnumdepth}{0} 
 
 % <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 % INTRODUCTION
 % <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-\section*{Introduction}
+\section{Introduction}
 
 % Paragraph 1
 The most frequently observed biological impact of climate change is shifts in phenology---the timing of recurring life history events \citep{parmesan_poleward_1999, menzel_european_2006, calvin_ipcc_2023}. Across many plant species, spring events have advanced \citep{wolfe_climate_2005,chmielewski_response_2001,fu_recent_2014}, while autumn events have delayed---but to a much lesser extent \citep{gallinat_autumn_2015,jeong_macroscale_2014}. Together, early springs and later autumns lengthen the growing season, which should increase growth for many species, including trees \citep{keenan_net_2014, stridbeck_partly_2022}. 
@@ -51,17 +51,17 @@ To understand the relationship between growing seasons and growth, we need to un
 % METHODS
 % <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 \clearpage
-\section*{Materials and Methods}
+\section{Materials and Methods}
 
 %-------------------------------------------------------------------------------
 % Common garden setup
 %-------------------------------------------------------------------------------
-\subsection*{Common garden setup and data collection}
+\subsection{Common garden setup and data collection}
 We collected seeds from 18 species of deciduous trees and shrubs from four provenances across a 3.5$^{\circ}$ latitudinal gradient (Figure \ref{fig:mapProv}; Table \ref{tab:provs}) in 2014-2015, germinated them following standard germination protocols and grew them to seedlings \citep{baskin_seeds_2014}. In the spring of 2017, we planted the seedlings outside at the Weld Hill Research Building at the Arnold Arboretum in Boston MA (42.30\degree N, 71.13\degree W). Plots were regularly weeded and watered throughout the duration of the study and were pruned in the fall of 2020 \citep{buonaiuto_early_2026}. 
 
 For the years 2018-2020, we monitored leaf phenology for all individuals in the common garden once or twice per week from February to December; the exact frequency varied within and across years (for more details, see Figure \ref{fig:phenoTimeSeries}). For this, we used a modified BBCH scale to observe two phenological stages: leafout which we defined as: BBCH 15 and budset as BBCH 102; \citep{finn_general_2007,buonaiuto_early_2026}. We had a total of 239 leafout and 230 budset observations (which we refer to as the `full datasets'), but for some individual trees in certain years we did not have both events, thus our total of matched full growing season duration (which we refer to as the `restricted dataset') is 227 observations.  
 
-In the spring of 2023, we collected tree ring samples from tree species with high survivorship. Thus, we have four species in the \textit{Betulaceae} family : Grey alder (\textit{Alnus incana}), Yellow birch (\textit{Betula alleghaniensis}), Paper birch (\textit{Betula papyrifera}) and Grey birch (\textit{Betula populifolia}). We collected cross-sections on 78 individuals by cutting the trunk above the root collar, and cores on 43 individuals using standard dendrochonological methods \citep{cook_methods_1990}, for a total of 81 individual trees (Table \ref{tab:provs}). We stored the cores in modified plastic straws to promote aeration and left them to dry with the cross-sections at ambient temperature for three months. 
+In the spring of 2023, we collected tree ring samples from tree species with high survivorship. Thus, we have four species in the \textit{Betulaceae} family : Grey alder (\textit{Alnus incana}), Yellow birch (\textit{Betula alleghaniensis}), Paper birch (\textit{Betula papyrifera}) and Grey birch (\textit{Betula populifolia}). We collected cross-sections on 78 individuals by cutting the trunk 2 cm above the root collar, and cores on 43 individuals using standard dendrochonological methods \citep{cook_methods_1990}, for a total of 81 individual trees (Table \ref{tab:provs}). We stored the cores in modified (with holes) plastic straws to promote aeration and left them to dry with the cross-sections at ambient temperature for three months. 
 
 % Provenance map
 \begin{figure}[!ht]
@@ -73,15 +73,15 @@ In the spring of 2023, we collected tree ring samples from tree species with hig
 %-------------------------------------------------------------------------------
 % Sample processing, imaging and measuring
 %-------------------------------------------------------------------------------
-\subsection*{Sample processing, imaging and measuring}
+\subsection{Sample processing, imaging and measuring}
 We mounted cores on wooden mounts, and sanded both the cores and cross-sections using progressively finer sandpaper grits (150, 300, 400, 600, 800, 1000), then scanned the cores and cross-sections at a resolution of 6250 dpi with a high-resolution tree ring scanner \citep{fong_tim_2026}. Using the digitized images, we measured ring widths with ImageJ \citep{schneider_nih_2012} at three standard locations for each cross-section (at {120\degree} from each other, averaging the three measurements to yield one ring width per year, per individual), and one ring width for each core. When we had cross-sections ($n = 78$) and cores ($n = 43$) for an individual, we used only the measurement from the cross sections ($n = 81 $). 
 
 We performed visual cross dating. This consists of assigning a calendar year to each ring and comparing the year-to-year growth variation and anomalies across replicates of the same species \citep{cook_methods_1990}. We did not perform statistical crossdating or detrending because our chronologies (number of years of data) were extremely short \citep{radenPotentialIntraannualDensity2020a} and showed no evidence of consistent allometric trends (Figure \ref{fig:allom}). We controlled for effects of different years by including `year' in our models (see equation \ref{eq:mainMdl} in `Data analyses' below).
 
-\subsection*{Data analyses}
+\subsection{Data analyses}
 To understand how growth shifted with season length we used Bayesian hierarchical models, estimating how growth, measured as ring width, covaried with season length, measured in four different ways: GDD, GSL, SOS and EOS. We calculated the thermal season using growing degree days (GDD; mean daily temperature above 5\degree C) accumulated between leafout and budset, and the calendar season (or growing season length; GSL) as the number of days between leafout and budset. Finally, we used leafout as the start (SOS) and and budset end of the season (EOS) as separate predictors that represent the boundaries of the growing season. For interpretability, we report ring width change (log(mm)) as the number of GDDs accumulated in an average week (seven days) in May (day of year 121 to 150 from 2018 to 2020), for the thermal season, and ring width change per week of season length, leafout and budset for GSL, SOS and EOS, respectively. We report effects when the 90\% UI do not overlap with zero and consider a trend if the 50\% UI do not overlap with zero.
 
-For daily climate data across all the years of phenological sampling (2018-2020) we combined two sources. For 2018 and 2019 we used data from the climate station located at Weld Hill research station \citep{arnoldarboretum_weather_2026}. Because the data was not available for that station after August 2020, we used data from the weather station `Boston (Weld Hill)' of the Network for Environment and Weather Applications (NEWA) for the whole year in 2020 \citep[see Figure \ref{fig:climOverlap} for the two climate overlap between the two stations in 2020;][]{carroll_network_2026}. We used the North American Drought Monitor Maps to determine drought occurrence across year at our study location and used the proposed drought intensity index to qualify the presence of moderate, severe or extreme droughts \citep{nationalcentersforenvironmentalinformationncei_north_2026}. 
+For daily climate data across all the years of phenological sampling (2018-2020) we combined two sources. For 2018 and 2019 we used data from the climate station located at Weld Hill research station \citep{arnoldarboretum_weather_2026}. Because the data were not available for that station after August 2020, we used data from the weather station `Boston (Weld Hill)' of the Network for Environment and Weather Applications (NEWA) for the whole year in 2020 \citep[see Figure \ref{fig:climOverlap} for the two climate overlap between the two stations in 2020;][]{carroll_network_2026}. We used the North American Drought Monitor Maps to determine drought occurrence across year at our study location and used the proposed drought intensity index to qualify the presence of moderate, severe or extreme droughts \citep{nationalcentersforenvironmentalinformationncei_north_2026}. 
 
 For each predictor, we estimated its effect on observed ring width ($i$, denoting each observation) for each tree ($treeid$) in each year ($year$) as:
 
@@ -206,7 +206,7 @@ EOS:
 %-------------------------------------------------------------------------------
 % Question 2
 %-------------------------------------------------------------------------------
-Increased growth with longer seasons is often presumed to come from growth in the spring, since spring phenology has shifted much more than fall phenology. In contrast to this expectation, we found most species grew more with a later end of season, and only one species grew more with an earlier start of season ({\Ainc} (one of the two species that a longer calendar season increased growth for: $\beta =$
+In contrast to this expectation, we found most species grew more with a later end of season, and only one species grew more with an earlier start of season ({\Ainc} (one of the two species that a longer calendar season increased growth for: $\beta =$
 -7.07, UI:
 -12.73, 
 -1.14 \%/day; Figure \ref{fig:wcmuplotbspp}c and g; Table \ref{tab:wc_slope_table}). 
@@ -278,14 +278,14 @@ We did not find any clear effect of year on growth (2018: $\alpha =$
 
 % Figure mu across all species and climate predictors
 \begin{figure}[!ht]
-\includegraphics[width=0.8\textwidth]{../../analyses/figures/growthModelsMain/muALLbsppWlines.pdf}
+\includegraphics[width=0.8\textwidth]{../figures/wildchrokie/growthModelsMain/muALLbsppWlines.pdf}
 \caption{Estimates of ring width change (log(mm)) as a function of four different phenological predictors: growing degree days of the growing season (mean daily temperature above 5\degree C); growing season length, start of season, and end of season across four species: Grey alder (\textit{Alnus incana}), Yellow birch (\textit{Betula alleghaniensis}), Paper birch (\textit{Betula papyrifera}) and Grey birch (\textit{Betula populifolia}; species colors are the same across the panels). Panels on the left (a to d) represent the mean model slope estimates for each species (dots) with 50\% and 90\% uncertainty intervals (thicker and thinner lines, respectively), for each predictor, which we represent through ring width change in mm on the log scale per adjusted predictor (see `Data analyses' section in Methods for more details on predictor adjustment). See Table \ref{tab:wc_slope_table} for parameter estimates. Panels on the right (e to h) show the estimated response of ring width as a function of each predictor, with the lines depicting the mean response at each predictor value, and the shaded area, the 50\% uncertainty intervals.}
 \label{fig:wcmuplotbspp}
 \end{figure}
 
 % Wildchrokie provenances mu plot
 \begin{figure}[!ht]
-\includegraphics[width=0.8\textwidth]{../../analyses/figures/growthModelsMain/muasite.pdf}
+\includegraphics[width=0.8\textwidth]{../figures/wildchrokie/growthModelsMain/muasite.pdf}
 \caption{The effect of provenance on growth across a latitudinal gradient. We show the ring width (log(mm); see Table \ref{tab:tab_all} for all parameter estimates) for each provenance with growing degree days as the predictor (effects were similar for the other predictors, see Table \ref{tab:wc_asite_table}). The dots represent the estimated mean of each provenance, with 50\% and 90\% uncertainty intervals (thicker and thinner lines, respectively). The provenances are color-coded from Figure \ref{fig:mapProv}, the map showing their locations.}
 \label{fig:wcmuplotasite}
 \end{figure}
@@ -294,7 +294,7 @@ We did not find any clear effect of year on growth (2018: $\alpha =$
 % DISCUSSION
 % <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 \clearpage
-\section*{Discussion}
+\section{Discussion}
 Here we used 81 juvenile trees of four species from four provenances to study how longer growing seasons affect tree growth (using annual growth via tree rings and leaf phenology as a proxy for the start and end of season, SOS and EOS, respectively). Longer growing season increased growth for all species, but varied depending on the season metric used to measure it, with the thermal growing season more often relating to growth than the calendar season.
 
 Our results support the idea that the thermal season is be a better predictor for growth \citep{chuine_processbased_2017,wang_simulation_1998}. By accounting for differences in daily temperatures, the thermal season may be more closely aligned to when and how fast plants can grow each day compared to the calendar season, which assumes a stable influence of each day on growth. Thus, the short and cool spring days early in the season count for less in the thermal season than the calendar season \citep{buonaiuto_early_2026}. Further supporting this, when we disentangled the calendar season by using the SOS and EOS separately, we found a larger response of growth to EOS, with little effect of SOS. 
@@ -307,7 +307,7 @@ Our focus on juvenile trees may suggest how forests regenerate and assemble with
 
 Our results also suggest assembly models may need less of a focus on population-level differences than previously suggested \citep{cavender-bares_diversification_2019}. While studies of large latitudinal gradients have found lower growth in tree species from poleward latitudes \citep{aitken_time_2016,soolanayakanahally_timing_2013}, we found no differences in growth across a latitudinal gradient of 3.5\degree. Thus, at least across this latitudinal range, local adaption on growth appears weak. Supporting this, we found no evidence of shifting EOS across provenances, despite decades of work finding that EOS events, such as budset, are usually more locally adapted than SOS events such as leafout \citep{soolanayakanahally_timing_2013,zeng_weak_2024}. Yet, a study of the same common garden including all tree and shrub species found EOS appeared to vary strongly by year and shift earlier with earlier SOS \citep{buonaiuto_early_2026}, suggesting EOS may be more variable than currently proposed \citep{alberto_potential_2013}. Taken together these results imply that our current understanding of budset being strongly locally adapted and thus varying little with temperature or SOS needs more study. 
 
-\subsection*{Implications for large-scale vegetation modeling}
+\subsection{Implications for large-scale vegetation modeling}
 Using a rarely available dataset of tree growth coupled with leaf phenology SOS and EOS, we found an overall positive response from multiple tree species to longer seasons, which has important implications for models of future carbon storage. While juvenile trees store little carbon compared to their adult forms, they are crucial for forest regeneration capacity and range expansion \citep[as discussed above, and see][]{luu_importance_2024}, and generally predict adult tree responses qualitatively \citep{wolkovich_why_2025}. We found that SOS and EOS asymmetrically matter to growth, which means that how we model these phenological events in vegetation and related earth system models may be critical for accurate predictions. Modelling EOS better will require more studies, especially on more species across a larger gradient. This could help tease out whether local adaptation of EOS depends on the species, latitudinal range (both distance and how far north provenances come from), or some combination of the two, which could then feed into improved models. 
 
 Integrating our results into models will also require considering how environmental conditions beyond temperature shift across the season, especially soil moisture \citep{gaoEarlierStartThermal2022,li_widespread_2023}. Trees in our common garden were regularly watered, likely relieving any major drought pressures though studies beyond ours have found a connection between later EOS and more growth, \citep[see:][]{gaoEarlierStartThermal2022,wang_seasonal_2025}. For the four species we studied, there are currently no increases in drought occurrence within their ranges \citep{nationalcentersforenvironmentalinformationncei_north_2026,agel_drought_2025}, suggesting that their growth may increase with longer and warmer growing season \citep{cook_uncertainty_2011,agel_drought_2025}, as we found. However, the positive effect of a later EOS could be offset if soil moisture becomes inadequate for growth, and other temperate regions with decreased soil moisture have reported declines in tree growth \citep[e.g.,][]{chiang_evidence_2021,spinoni_will_2018}. Improved accuracy of future carbon sequestration models would consequently require integrating over more regions and growth drivers.
