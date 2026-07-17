@@ -1,4 +1,4 @@
-\begin{thebibliography}{108}
+\begin{thebibliography}{110}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -157,6 +157,12 @@ Charlet De~Sauvage, J., Vitasse, Y., Meier, M., Delzon, S. \& Bigler, C. (2022)
   Temperature rather than individual growing period length determines radial
   growth of sessile oak in the {Pyrenees}. \emph{Agricultural and Forest
   Meteorology} \textbf{317}, 108885.
+
+\bibitem[{Cheng \emph{et~al.}(2024)Cheng, Feng, Schmidt, Turner \&
+  Evans}]{cheng_superblack_2024}
+Cheng, K.J., Feng, D., Schmidt, L.M., Turner, M. \& Evans, P.D. (2024)
+  Super‐{Black} {Material} {Created} by {Plasma} {Etching} {Wood}.
+  \emph{Advanced Sustainable Systems} \textbf{8}, 2400184.
 
 \bibitem[{Chiang \emph{et~al.}(2021)Chiang, Mazdiyasni \&
   AghaKouchak}]{chiang_evidence_2021}
@@ -557,6 +563,10 @@ Muhr, J., Messier, C., Delagrange, S., Trumbore, S., Xu, X. \& Hartmann, H.
 {National Oceanic and Atmospheric Administration (NOAA)} (2026) Local
   {Climatological} {Data} {Station} {Details}: {Boston} {Logan} {Internal}
   {Airport}, {MA} {US}, {WBAN}:14739.
+
+\bibitem[{Pagel(1999)}]{pagel_inferring_1999}
+Pagel, M. (1999) Inferring the historical patterns of biological evolution.
+  \emph{Nature} \textbf{401}, 877--884.
 
 \bibitem[{Pan \emph{et~al.}(2024)Pan, Birdsey, Phillips, Houghton, Fang,
   Kauppi, Keith, Kurz, Ito, Lewis, Nabuurs, Shvidenko, Hashimoto, Lerink,

@@ -6,27 +6,25 @@
 \contentsline {chapter}{List of Figures}{x}{chapter*.6}%
 \contentsline {chapter}{Acknowledgments}{xvi}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Warmer and longer growing seasons increase growth for juvenile trees in a common garden}{1}{chapter.1}%
-\contentsline {section}{Introduction}{1}{section*.8}%
-\contentsline {section}{Materials and Methods}{5}{section*.10}%
-\contentsline {subsection}{Common garden setup and data collection}{5}{subsection*.11}%
-\contentsline {subsection}{Sample processing, imaging and measuring}{5}{subsection*.13}%
-\contentsline {subsection}{Data analyses}{6}{subsection*.14}%
-\contentsline {section}{Results}{8}{section*.15}%
-\contentsline {section}{Discussion}{12}{section*.18}%
-\contentsline {subsection}{Implications for large-scale vegetation modeling}{14}{subsection*.19}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Materials and Methods}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Common garden setup and data collection}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Sample processing, imaging and measuring}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Data analyses}{6}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Results}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Discussion}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Implications for large-scale vegetation modeling}{14}{subsection.1.4.1}%
 \contentsline {chapter}{\numberline {2}Weak response of warmer growing seasons on tree growth across 11 species of adult trees in an urban arboretum}{15}{chapter.2}%
-\contentsline {section}{Introduction}{15}{section*.20}%
-\contentsline {section}{Methods}{17}{section*.21}%
-\contentsline {subsection}{Citizen science program}{17}{subsection*.22}%
-\contentsline {subsection}{Phenological monitoring and sample collection}{18}{subsection*.24}%
-\contentsline {subsection}{Sample processing, imaging and measuring}{19}{subsection*.25}%
-\contentsline {subsection}{Data analyses}{19}{subsection*.26}%
-\contentsline {section}{Results}{20}{section*.27}%
-\contentsline {section}{Discussion}{25}{section*.31}%
-\contentsline {subsection}{Life-history influence on growth trends}{25}{subsection*.32}%
-\contentsline {subsection}{Growth response blurred by carbon allocation to storage}{26}{subsection*.33}%
-\contentsline {section}{Supplemental material}{28}{section*.34}%
-\contentsline {chapter}{\numberline {3}Concluding chapter}{43}{chapter.3}%
-\contentsline {chapter}{Bibliography}{46}{chapter*.52}%
-\contentsline {chapter}{\numberline {A}Supporting Materials}{56}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Supplemental Material}{58}{appendix.B}%
+\contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Methods}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Citizen science program}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Phenological monitoring and sample collection}{18}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Sample processing, imaging and measuring}{19}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Data analyses}{19}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Results}{21}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Discussion}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Life-history influence on growth trends}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Growth response may be blurred by carbon allocation to storage}{26}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Conclusions and future work}{28}{chapter.3}%
+\contentsline {chapter}{Bibliography}{32}{chapter*.18}%
+\contentsline {chapter}{\numberline {A}Supplemental Material}{42}{appendix.A}%
