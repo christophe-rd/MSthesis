@@ -1,3 +1,4 @@
+\backcite {anthropic_claude_2026}{{v}{(document)}{Doc-Start}}
 \backcite {burns_silvics_1990}{{viii}{(document)}{Doc-Start}}
 \backcite {nationaloceanicandatmosphericadministration_local_2026}{{x}{(document)}{Doc-Start}}
 \backcite {calvin_ipcc_2023}{{1}{1}{section*.8}}
@@ -38,8 +39,8 @@
 \backcite {marchand_timing_2021}{{2}{1}{section*.8}}
 \backcite {silvestro_roots_2025}{{2}{1}{section*.8}}
 \backcite {suzuki_phenological_1996}{{2}{1}{section*.8}}
-\backcite {augspurger_differences_2003}{{2}{1}{section*.8}}
-\backcite {way_photoperiod_2015}{{2}{1}{section*.8}}
+\backcite {augspurger_differences_2003}{{3}{1}{section*.8}}
+\backcite {way_photoperiod_2015}{{3}{1}{section*.8}}
 \backcite {soolanayakanahally_timing_2013}{{3}{1}{section*.8}}
 \backcite {wolkovich_why_2025}{{3}{1}{section*.8}}
 \backcite {baumgarten_indeterminacy_2026}{{3}{1}{section*.8}}
@@ -55,7 +56,7 @@
 \backcite {cook_methods_1990}{{5}{1}{subsection*.11}}
 \backcite {fong_tim_2026}{{5}{1}{subsection*.13}}
 \backcite {schneider_nih_2012}{{5}{1}{subsection*.13}}
-\backcite {cook_methods_1990}{{5}{1}{subsection*.13}}
+\backcite {cook_methods_1990}{{6}{1}{subsection*.13}}
 \backcite {radenPotentialIntraannualDensity2020a}{{6}{1}{subsection*.13}}
 \backcite {arnoldarboretum_weather_2026}{{7}{1}{subsection*.14}}
 \backcite {carroll_network_2026}{{7}{1}{subsection*.14}}
@@ -138,8 +139,10 @@
 \backcite {dorangeville_peak_2022}{{16}{2}{section*.20}}
 \backcite {hesslCarbonUptakeStorage2026}{{16}{2}{section*.20}}
 \backcite {savageLeafOutTime2022}{{16}{2}{section*.20}}
+\backcite {yin_ring_2023}{{16}{2}{section*.20}}
 \backcite {dorangeville_peak_2022}{{16}{2}{section*.20}}
 \backcite {michelot_comparing_2012}{{16}{2}{section*.20}}
+\backcite {yin_ring_2023}{{16}{2}{section*.20}}
 \backcite {dorangeville_peak_2022}{{16}{2}{section*.20}}
 \backcite {michelot_comparing_2012}{{16}{2}{section*.20}}
 \backcite {chuine_processbased_2017}{{16}{2}{section*.20}}

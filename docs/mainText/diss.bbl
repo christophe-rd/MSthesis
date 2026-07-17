@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{108}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -25,6 +25,9 @@ Alberto, F.J., Aitken, S.N., Alía, R., González‐Martínez, S.C., Hänninen,
   Savolainen, O. (2013) Potential for evolutionary responses to climate change
   – evidence from tree populations. \emph{Global Change Biology} \textbf{19},
   1645--1661.
+
+\bibitem[{{Anthropic}(2026)}]{anthropic_claude_2026}
+{Anthropic} (2026) Claude ({Sonnet} 5).
 
 \bibitem[{{Arnold Arboretum}(2026)}]{arnoldarboretum_weather_2026}
 {Arnold Arboretum} (2026) Weather {Data} at the {Arnold} {Arboretum}. Accessed:
@@ -740,6 +743,12 @@ Wolkovich, E.M., Ettinger, A.K., Chin, A.R., Chamberlain, C.J., Baumgarten, F.,
   Pradhan, K., Manzanedo, R.D. \& Hille Ris~Lambers, J. (2025) Why longer
   seasons with climate change may not increase tree growth. \emph{Nature
   Climate Change} \textbf{15}, 1283--1292.
+
+\bibitem[{Yin \emph{et~al.}(2023)Yin, Hao \& Sterck}]{yin_ring_2023}
+Yin, X.H., Hao, G.Y. \& Sterck, F. (2023) Ring- and diffuse-porous tree species
+  from a cold temperate forest diverge in stem hydraulic traits, leaf
+  photosynthetic traits, growth rate and altitudinal distribution. \emph{Tree
+  Physiology} \textbf{43}, 722--736.
 
 \bibitem[{Zani \emph{et~al.}(2020)Zani, Crowther, Mo, Renner \&
   Zohner}]{zani_increased_2020}
