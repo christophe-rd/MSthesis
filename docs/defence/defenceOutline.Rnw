@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\title{Defence presentation outline}
+\author{Christophe Rouleau-Desrochers}
+\date{\today}
+\maketitle
+
+% The student presents a brief summary of the thesis (not to exceed 20 minutes). Each examiner then asks questions in the general area of the thesis for 15-20 minutes, with the option of a brief second round for follow-up questions. The Chairperson may ask a question or two out of interest or for purposes of clarification but is not expected to do so. The Chair then invites questions from the audience. The exam should not exceed 2 hours. Following the examination, the candidate and audience members are asked to leave the room or virtual session so that the committee may evaluate the student’s performance.
+
+\begin{enumerate}
+
+\item Content
+  \begin{enumerate}
+  \item Intro, chapter 1, chapter 2, conclusion; will last 15 minutes.
+  \item 
+  \end{enumerate}
+  
+\item Introduction
+  \begin{enumerate}
+  \item ACC impacts on phenology: spring and autumn shifts
+  \item This means longer growing seasons which should increase growth
+  \item This assumed trend is important for carbon models; temperate forest= 40\% of global net carbon sink
+  \item Recent research showed that this may not be the case
+  \item Drought and competition as potential growth inhibitors and internal constraints
+  \item Questions: do longer and warmer seasons increase growth in juvenile and mature trees?
+  \item Objectives: answer this question using north american juvenile trees of 4 species from 4 provenances (chapter 1) and mature trees of 11 species (chapter 2)
+  \end{enumerate}
+
+\item Chapter 1
+  \begin{enumerate}
+  \item Introduction: gs conceptual figure
+  \item Introduction: constraints on growth
+  \item Methods: trees grown from seeds and sourced from 4 provenances; 3.5 degree lat gradient; phenology for 3 years, growth with tree rings
+  \item Methods: bayesian hierarchical models? 4 different predictors
+  \item R/D: More species grew more with warmer seasons than calendar season; because warmer is a better predictor of growth
+  \item R/D: Later EOS increased growth more than SOS; because higher temperature than SOS; suggests looking more at EOS
+  \item R/D: No provenance effect; at least for this small gradient, no evidence of local adaptation on growth
+  \item Conclusion: juvenile trees should grow more, means it would be good for range expansion and forest regenaration
+  \end{enumerate}
+
+\item Chapter 2
+  \begin{enumerate}
+  \item Introduction: different growth strategies could influence tree growth responses to GS length
+  \item Introduction: fast vs slower growing species
+  \item Introduction: wood porousness and timing of leaf phenology and growth = differences in temperature experienced; also correlates with different life-history strategies
+  \item Introduction: carbon investment in storage may blur annual growth responses
+  \item Methods: citizen science leaf phenology; growth with tree rings at the arboretum
+  \item Methods: stats? Same predictors, but used leaf coloring as EOS.
+  \item R/D:
+  \end{enumerate}
+
+\item Conclusion
+  \begin{enumerate}
+  \item 
+  \item 
+  \end{enumerate}
+
+\end{enumerate}
+
+\end{document}
