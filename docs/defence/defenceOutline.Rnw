@@ -15,18 +15,49 @@
 \item Content
   \begin{enumerate}
   \item Intro, chapter 1, chapter 2, conclusion; will last 15 minutes.
-  \item 
+  \item 1
   \end{enumerate}
   
 \item Introduction
   \begin{enumerate}
-  \item ACC impacts on phenology: spring and autumn shifts
-  \item This means longer growing seasons which should increase growth
+  \item ACC impacts on tree phenology
+    \begin{enumerate}
+    \item Spring are earlier
+    \item Autumn delayed
+    \item Lenghtens the GSL
+    \item (Figure): simplified version of conceptual figure?
+    \end{enumerate}
+    
+  \item Long GS should = more growth
+    \begin{enumerate}
+    \item This means longer growing seasons which should increase growth
+    \end{enumerate}
+  
   \item This assumed trend is important for carbon models; temperate forest= 40\% of global net carbon sink
+    \begin{enumerate}
+    \item 1
+    \end{enumerate}
+    
   \item Recent research showed that this may not be the case
+    \begin{enumerate}
+    \item 1
+    \end{enumerate}
+  
   \item Drought and competition as potential growth inhibitors and internal constraints
+    \begin{enumerate}
+    \item 1
+    \end{enumerate}
+  
   \item Questions: do longer and warmer seasons increase growth in juvenile and mature trees?
+    \begin{enumerate}
+    \item 1
+    \end{enumerate}
+  
   \item Objectives: answer this question using north american juvenile trees of 4 species from 4 provenances (chapter 1) and mature trees of 11 species (chapter 2)
+    \begin{enumerate}
+    \item 1
+    \end{enumerate}
+  
   \end{enumerate}
 
 \item Chapter 1
@@ -49,13 +80,13 @@
   \item Introduction: carbon investment in storage may blur annual growth responses
   \item Methods: citizen science leaf phenology; growth with tree rings at the arboretum
   \item Methods: stats? Same predictors, but used leaf coloring as EOS.
-  \item R/D:
+  \item R/D: very little effect of season length 
   \end{enumerate}
 
 \item Conclusion
   \begin{enumerate}
-  \item 
-  \item 
+  \item 1
+  \item 2
   \end{enumerate}
 
 \end{enumerate}
