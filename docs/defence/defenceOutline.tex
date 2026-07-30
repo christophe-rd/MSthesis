@@ -49,7 +49,7 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.7in]{geometry}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 
@@ -101,57 +101,121 @@
     \item Objectives: address GS/growth disconnection using two systems
     \item Chapter 1: juvenile trees, 4 species, 4 prov, leaf phenology and tree rings
     \item Chapter 2: mature trees, 11 species, leaf phenology and tree rings
+    \item (Figure): simplified version of thesis overview figure
     \end{enumerate}
     
-  \item Recent research showed that this may not be the case
-    \begin{enumerate}
-    \item 1
-    \end{enumerate}
-  
-  \item Drought and competition as potential growth inhibitors and internal constraints
-    \begin{enumerate}
-    \item 1
-    \end{enumerate}
-  
-  \item Questions: do longer and warmer seasons increase growth in juvenile and mature trees?
-    \begin{enumerate}
-    \item 1
-    \end{enumerate}
-  
-  \item Objectives: answer this question using north american juvenile trees of 4 species from 4 provenances (chapter 1) and mature trees of 11 species (chapter 2)
-    \begin{enumerate}
-    \item 1
-    \end{enumerate}
-  
   \end{enumerate}
 
 \item Chapter 1
   \begin{enumerate}
-  \item Introduction: gs conceptual figure
-  \item Introduction: constraints on growth
-  \item Methods: trees grown from seeds and sourced from 4 provenances; 3.5 degree lat gradient; phenology for 3 years, growth with tree rings
-  \item Methods: bayesian hierarchical models? 4 different predictors
-  \item R/D: More species grew more with warmer seasons than calendar season; because warmer is a better predictor of growth
-  \item R/D: Later EOS increased growth more than SOS; because higher temperature than SOS; suggests looking more at EOS
-  \item R/D: No provenance effect; at least for this small gradient, no evidence of local adaptation on growth
-  \item Conclusion: juvenile trees should grow more, means it would be good for range expansion and forest regenaration
+  \item Introduction: 
+    \begin{enumerate}
+    \item Drought and competition could constrain growth
+    \item Internal constraints (local adaptation?)
+    \item Answer if juvenile trees grow more in a drought and competition limited environment
+    \item (Figure):
+    \end{enumerate}
+    
+  \item Methods: common garden set up
+    \begin{enumerate}
+    \item Trees grown from seeds, 4 species, 4 provenances 
+    \item Phenology for 3 years
+    \item Calendar and thermal season from leafout to budset
+    \item Growth via tree rings
+    \item (Figure): map and common garden photo
+    \end{enumerate}
+    
+  \item Methods: stats? 
+    \begin{enumerate}
+    \item Bayes hierarchical model
+    \item 4 different season predictors
+    \item (Figure): model equation and conceptual figure showing predictors?
+    \end{enumerate}
+    
+  \item R/D: thermal $>$ calendar 
+    \begin{enumerate}
+    \item Species grew more with warmer seasons than longer calendar season
+    \item Because warmer is a better predictor of growth
+    \item Thermal season weights growth days while calendar assumes a stable growth rate throughout the season
+    \item (Figure): 2 pannel mu plot for GDD and GSL
+    \end{enumerate}
+  
+  \item R/D: EOS $>$ SOS; 
+    \begin{enumerate}
+    \item EOS temperature higher temperature than SOS 
+    \item EOS delayed less, but contribution is higher because days are warmer
+    \item Suggests looking more at EOS than SOS
+    \item (Figure): 2 pannel mu plot for EOS and SOS AND conceptual figure showing GDD differences at EOS and SOS
+    \end{enumerate}
+  
+  \item R/D: No provenance effect; 
+    \begin{enumerate}
+    \item In this small climatic gradient, no evidence of local adaptation on growth
+    \item (Figure): provenance mu plot
+    \end{enumerate}
+    
+  % \item Conclusion: juvenile trees should grow more, means it would be good for range expansion and forest regenaration
   \end{enumerate}
 
 \item Chapter 2
   \begin{enumerate}
-  \item Introduction: different growth strategies could influence tree growth responses to GS length
-  \item Introduction: fast vs slower growing species
-  \item Introduction: wood porousness and timing of leaf phenology and growth = differences in temperature experienced; also correlates with different life-history strategies
-  \item Introduction: carbon investment in storage may blur annual growth responses
-  \item Methods: citizen science leaf phenology; growth with tree rings at the arboretum
-  \item Methods: stats? Same predictors, but used leaf coloring as EOS.
-  \item R/D: very little effect of season length 
+  \item Introduction: life history strategies could inform tree growth responses
+    \begin{enumerate}
+    \item Fast vs slower growing species
+    \item Diffuse vs ring porous species
+    \item Carbon allocation to storage = blur annual growth response to thermal and calendar seasons
+    \end{enumerate}
+
+  \item Methods: citizen science leaf phenology at the Arboretum
+    \begin{enumerate}
+    \item Growth via tree rings 
+    \item Leaf phenology 
+    \item 11 angiosperm deciduous species spanning different growth strategies and wood porousness
+    \item (Figure): Arboretum map AND core scans
+    \end{enumerate}
+    
+  \item Methods: stats
+    \begin{enumerate}
+    \item Hierarchical model for the 4 predictors
+    \item Leafout and leaf coloring as SOS and EOS
+    \item Previous year model
+    \item (Figure): TBD
+    \end{enumerate}
+    
+  \item R/D: weak response across species across current year predictors
+    \begin{enumerate}
+    \item Ball decreased growth: southernmost range reduction in future ACC
+    \item Tiam: grew less with earlier SOS despite being fast growing 
+    \item No consistent trend across life history strategies or wood porousness
+    \item (Figure): mu plots 4 facet
+    \end{enumerate}
+  
+  \item R/D: 2 species responded to previous year thermal season
+    \begin{enumerate}
+    \item Ball increase growth with previous yr condition
+    \item Bnig grew more only when considering previous yr condition
+    \item Reveals importance of carbon allocation to storage for mature trees; blur responses
+    \item (Figure): previous year conditions mu plot
+    \end{enumerate}
+  
   \end{enumerate}
 
-\item Conclusion
+\item Conclusion and future work
   \begin{enumerate}
-  \item 1
-  \item 2
+  \item Chapter 1 and 2
+    \begin{enumerate}
+    \item Chapter 1: warmer seasons for juvenile trees = good for forest regeneration and range expansion
+    \item Chapter 2: no effect of longer and warmer seasons: probably bad for forest carbon
+    \item (Figure): simplified version of thesis overview figure
+    \end{enumerate}
+    
+  \item Fuelinex
+    \begin{enumerate}
+    \item Observational studies have limits
+    \item Fuelinex will look at carry over effect of longer seasons with relative effect of each season.
+    \item (Figure): some random photo of the experiment
+    \end{enumerate}
+    
   \end{enumerate}
 
 \end{enumerate}
