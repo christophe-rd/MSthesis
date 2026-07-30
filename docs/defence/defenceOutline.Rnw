@@ -12,30 +12,45 @@
 
 \begin{enumerate}
 
-\item Content
+\item Content (1 min)
   \begin{enumerate}
-  \item Intro, chapter 1, chapter 2, conclusion; will last 15 minutes.
-  \item 1
+  \item Intro, chapter 1, chapter 2, conclusion; will last 15-20 minutes.
   \end{enumerate}
   
 \item Introduction
   \begin{enumerate}
-  \item ACC impacts on tree phenology
+  \item ACC lengthens growing seasons
     \begin{enumerate}
-    \item Spring are earlier
-    \item Autumn delayed
-    \item Lenghtens the GSL
-    \item (Figure): simplified version of conceptual figure?
+    \item Happens through earlier SOS + delayed EOS
+    \item (Figure): conceptual figure simplified showing SOS and EOS shifts
     \end{enumerate}
     
-  \item Long GS should = more growth
+  \item GS are longer, but also warmer
     \begin{enumerate}
-    \item This means longer growing seasons which should increase growth
+    \item Total annual GDD increases
+    \item (Figure): conceptual figure with GDD accumulation curve 
     \end{enumerate}
   
-  \item This assumed trend is important for carbon models; temperate forest= 40\% of global net carbon sink
+  \item SOS + EOS shifts = more GDD, but shifts are assymetric
     \begin{enumerate}
-    \item 1
+    \item Impacts how much GDD is accumulated in the GS
+    \item SOS shift more, but are cooler
+    \item EOS shift less, but are warmer
+    \item (Figure): conceptual figure with showing how much GDD in each season
+    \end{enumerate}
+    
+  \item SOS + EOS shifts = longer and warmer seasons; should increase growth
+    \begin{enumerate}
+    \item Recent studies failed to find this relationship
+    \item Important because temperate forest= 40\% of global net carbon sink
+    \item (Figure): TBD
+    \end{enumerate}
+    
+  \item Question: do trees grow more with longer and warmer seasons?
+    \begin{enumerate}
+    \item Objectives: address GS/growth disconnection using two systems
+    \item Chapter 1: juvenile trees, 4 species, 4 prov, leaf phenology and tree rings
+    \item Chapter 2: mature trees, 11 species, leaf phenology and tree rings
     \end{enumerate}
     
   \item Recent research showed that this may not be the case
