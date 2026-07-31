@@ -1,4 +1,4 @@
-\begin{thebibliography}{110}
+\begin{thebibliography}{114}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -398,6 +398,10 @@ Gunderson, C.A., Edwards, N.T., Walker, A.V., O'Hara, K.H., Campion, C.M. \&
   \textbf{18}, 2008--2025, \_eprint:
   https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2486.2011.02632.x.
 
+\bibitem[{Habjørg(1978)}]{habjorg_photoperiodic_1978}
+Habjørg, A. (1978) Photoperiodic ecotypes in {Scandinavian} trees and shrubs.
+  .
+
 \bibitem[{Harris \emph{et~al.}(2021)Harris, Gibbs, Baccini, Birdsey, De~Bruin,
   Farina, Fatoyinbo, Hansen, Herold, Houghton, Potapov, Suarez, Roman-Cuesta,
   Saatchi, Slay, Turubanova \& Tyukavina}]{harrisGlobalMapsTwentyfirst2021}
@@ -428,10 +432,22 @@ Keenan, T.F., Gray, J., Friedl, M.A., Toomey, M., Bohrer, G., Hollinger, D.Y.,
   warming-induced changes in temperate forest phenology. \emph{Nature Climate
   Change} \textbf{4}, 598--604.
 
+\bibitem[{Keller \emph{et~al.}(2011)Keller, Soolanayakanahally, Guy, Silim,
+  Olson \& Tiffin}]{keller_climatedriven_2011}
+Keller, S.R., Soolanayakanahally, R.Y., Guy, R.D., Silim, S.N., Olson, M.S. \&
+  Tiffin, P. (2011) Climate‐driven local adaptation of ecophysiology and
+  phenology in balsam poplar, \textit{{Populus} balsamifera} {L}.
+  ({Salicaceae}). \emph{American Journal of Botany} \textbf{98}, 99--108.
+
 \bibitem[{Kitin \& Funada(2016)}]{kitin_earlywood_2016}
 Kitin, P. \& Funada, R. (2016) Earlywood vessels in ring-porous trees become
   functional for water transport after bud burst and before the maturation of
   the current-year leaves. \emph{IAWA Journal} \textbf{37}, 315--331.
+
+\bibitem[{Kramer(1936)}]{kramer_effect_1936}
+Kramer, P.J. (1936) {EFFECT} {OF} {VARIATION} {IN} {LENGTH} {OF} {DAY} {ON}
+  {GROWTH} {AND} {DORMANCY} {OF} {TREES}. \emph{Plant Physiology} \textbf{11},
+  127--137.
 
 \bibitem[{Körner \emph{et~al.}(2023)Körner, Möhl \&
   Hiltbrunner}]{korner_four_2023}
@@ -710,6 +726,13 @@ Wang, E. \& Engel, T. (1998) Simulation of phenological development of wheat
 Wang, J., Ives, N.E. \& Lechowicz, M.J. (1992) The {Relation} of {Foliar}
   {Phenology} to {Xylem} {Embolism} in {Trees}. \emph{Functional Ecology}
   \textbf{6}, 469.
+
+\bibitem[{Wang \emph{et~al.}(2016)Wang, Hamann, Spittlehouse \&
+  Carroll}]{wang_locally_2016}
+Wang, T., Hamann, A., Spittlehouse, D. \& Carroll, C. (2016) Locally
+  {Downscaled} and {Spatially} {Customizable} {Climate} {Data} for {Historical}
+  and {Future} {Periods} for {North} {America}. \emph{PLOS ONE} \textbf{11},
+  e0156720.
 
 \bibitem[{Wang \emph{et~al.}(2025)Wang, Qin, Zhang, Yang, Cabon, Wang, Zhou,
   Zhang, Fonti \& Huang}]{wang_seasonal_2025}

@@ -5,22 +5,43 @@
 % <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 \setlength{\tabcolsep}{3pt}
+
 % latex table generated in R 4.5.1 by xtable 1.8-4 package
-% Wed Jul 15 10:34:16 2026
+% Fri Jul 31 15:18:06 2026
 \begin{table}[ht]
 \centering
-\caption{Provenance coordinates and count per species and provenances out of a total of 81 individual trees sampled from the United States of America (in Massachusetts (MA) and New Hampshire(NH)) and Canada (in Quebec (Qc)).} 
-\label{tab:provs}
-\begin{tabular}{lrrrrrr}
+\caption{Number of individuals sampled per species and per provenance for a total of 81 individual trees sampled from the United States of America (in Massachusetts (MA) and New Hampshire (NH)) and Canada (in Quebec (Qc)).} 
+\label{tab:tab_species}
+\begin{tabular}{lrrrr}
   \hline
-Provenance & Longitude & Latitude & \textit{A. incana} & \textit{B. alleghaniensis} & \textit{B. papyrifera} & \textit{B. populifolia} \\
- & & & $(n = 29)$ & $(n = 20)$ & $(n = 7)$ & $(n = 25)$ \\
+Provenance & \textit{A. incana} & \textit{B. alleghaniensis} & \textit{B. papyrifera} & \textit{B. populifolia} \\
+ & $(n = 29)$ & $(n = 20)$ & $(n = 7)$ & $(n = 25)$ \\
 \hline
  \hline
- Harvard Forest (MA) & -72.2 & 42.5 & 7 & 0 & 4 & 7 \\ 
-  White Mountains (NH) & -71.0 & 44.1 & 6 & 7 & 0 & 9 \\ 
-  Dartmouth College (NH) & -70.7 & 44.9 & 8 & 7 & 2 & 9 \\ 
-  St-Hippolyte (Qc) & -74.0 & 46.0 & 8 & 6 & 1 & 0 \\ 
+  \hline
+Harvard Forest (MA) & 7 & 0 & 4 & 7 \\ 
+  White Mountains (NH) & 6 & 7 & 0 & 9 \\ 
+  Dartmouth College (NH) & 8 & 7 & 2 & 9 \\ 
+  St-Hippolyte (Qc) & 8 & 6 & 1 & 0 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+% latex table generated in R 4.5.1 by xtable 1.8-4 package
+% Fri Jul 31 15:18:06 2026
+\begin{table}[ht]
+\centering
+\caption{Provenance coordinates and 1951--1980 climate normals: mean annual temperature (MAT; \degree C), mean summer precipitation (MSP; mm), and frost-free period (FFP; days). We extracted the climate variables at each provenance from \citep{wang_locally_2016}} 
+\label{tab:climate}
+\begin{tabular}{lrrrrr}
+  \hline
+Provenance & Latitude & Longitude & MAT & MSP & FFP \\ 
+  \hline
+Harvard Forest (MA) & 42.5 & -72.2 & 7.4 & 450 & 133 \\ 
+  White Mountains (NH) & 44.1 & -71.0 & 6.8 & 434 & 128 \\ 
+  Dartmouth College (NH) & 44.9 & -70.7 & 3.2 & 490 & 110 \\ 
+  St-Hippolyte (Qc) & 46.0 & -74.0 & 3.4 & 472 & 121 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -28,7 +49,7 @@ Provenance & Longitude & Latitude & \textit{A. incana} & \textit{B. alleghaniens
 % Phenology observations time series
 \begin{figure}[!ht]
 \includegraphics[width=0.6\textwidth]{/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/empiricalData/phenoTimeseries.pdf}
-\caption{Leaf phenology monitoring frequency across years. We monitored leaf phenology once or twice per week for three years, though the frequency varied within and across years. Each histogram bin represents the number of observations that were made during a period of 14 days and the lines represent the earliest, the average and last recorded budburst observations. This demonstrates that across the different frequencies of observation, distances between early spring phenophases were similar across years.}
+\caption{Leaf phenology monitoring frequency across years. We monitored leaf phenology once or twice per week for three years, though the frequency varied within and across years. Each histogram bin represents the number of observations that were made during a period of 14 days and the solid lines represent the earliest, the average and last recorded budburst observations; the dashed lines depict the budset observations. This demonstrates that across the different frequencies of observation, distances between early spring phenophases were similar across years.}
 \label{fig:phenoTimeSeries}
 \end{figure}
 

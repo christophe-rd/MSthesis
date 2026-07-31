@@ -3,6 +3,7 @@
 \backcite {cheng_superblack_2024}{{viii}{(document)}{Doc-Start}}
 \backcite {dorangeville_peak_2022}{{viii}{(document)}{Doc-Start}}
 \backcite {grover_growth_2023}{{viii}{(document)}{Doc-Start}}
+\backcite {wang_locally_2016}{{viii}{(document)}{Doc-Start}}
 \backcite {nationaloceanicandatmosphericadministration_local_2026}{{x}{(document)}{Doc-Start}}
 \backcite {calvin_ipcc_2023}{{1}{1.1}{section.1.1}}
 \backcite {menzel_european_2006}{{1}{1.1}{section.1.1}}
@@ -54,8 +55,8 @@
 \backcite {nationaloceanicandatmosphericadministration_local_2026}{{4}{1.1}{figure.caption.8}}
 \backcite {baskin_seeds_2014}{{5}{1.2.1}{subsection.1.2.1}}
 \backcite {buonaiuto_early_2026}{{5}{1.2.1}{subsection.1.2.1}}
-\backcite {finn_general_2007}{{5}{1.2.1}{subsection.1.2.1}}
 \backcite {buonaiuto_early_2026}{{5}{1.2.1}{subsection.1.2.1}}
+\backcite {finn_general_2007}{{5}{1.2.1}{subsection.1.2.1}}
 \backcite {cook_methods_1990}{{5}{1.2.1}{subsection.1.2.1}}
 \backcite {fong_tim_2026}{{5}{1.2.2}{subsection.1.2.2}}
 \backcite {schneider_nih_2012}{{5}{1.2.2}{subsection.1.2.2}}
@@ -100,10 +101,14 @@
 \backcite {cavender-bares_diversification_2019}{{13}{1.4}{section.1.4}}
 \backcite {aitken_time_2016}{{13}{1.4}{section.1.4}}
 \backcite {soolanayakanahally_timing_2013}{{13}{1.4}{section.1.4}}
+\backcite {aitken_time_2016}{{13}{1.4}{section.1.4}}
+\backcite {habjorg_photoperiodic_1978}{{13}{1.4}{section.1.4}}
+\backcite {keller_climatedriven_2011}{{13}{1.4}{section.1.4}}
+\backcite {kramer_effect_1936}{{13}{1.4}{section.1.4}}
 \backcite {soolanayakanahally_timing_2013}{{13}{1.4}{section.1.4}}
 \backcite {zeng_weak_2024}{{13}{1.4}{section.1.4}}
 \backcite {buonaiuto_early_2026}{{13}{1.4}{section.1.4}}
-\backcite {alberto_potential_2013}{{13}{1.4}{section.1.4}}
+\backcite {alberto_potential_2013}{{14}{1.4}{section.1.4}}
 \backcite {luu_importance_2024}{{14}{1.4.1}{subsection.1.4.1}}
 \backcite {wolkovich_why_2025}{{14}{1.4.1}{subsection.1.4.1}}
 \backcite {gaoEarlierStartThermal2022}{{14}{1.4.1}{subsection.1.4.1}}
@@ -194,3 +199,4 @@
 \backcite {burns_silvics_1990}{{28}{3}{figure.caption.16}}
 \backcite {vitasse_ontogenic_2013}{{30}{3}{figure.caption.16}}
 \backcite {wolkovich_why_2025}{{30}{3}{figure.caption.16}}
+\backcite {wang_locally_2016}{{42}{A.2}{table.caption.20}}
