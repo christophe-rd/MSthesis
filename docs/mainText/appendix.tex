@@ -165,6 +165,19 @@ $\alpha$ & 0.62 [-4.52, 5.84] \\
 \end{tabular}
 \end{table}
 
+% Wildchrokie provenances mu plot 
+\begin{figure}[!ht]
+\includegraphics[width=0.8\textwidth]{../figures/wildchrokie/growthModelsMain/muasite.pdf}
+\caption{The effect of provenance on growth across a latitudinal gradient. We show the ring width (log(mm); see Table \ref{tab:tab_all} for all parameter estimates) for each provenance with growing degree days as the predictor (effects were similar for the other predictors; see Table \ref{tab:wc_asite_table}). The dots represent the estimated mean of each provenance, with 50\% and 90\% uncertainty intervals (thicker and thinner lines, respectively). The provenances are color-coded from Figure \ref{fig:mapProv}, the map showing their locations. We also performed a separate analyses, fitting the provenances per species, individually (see Figure \ref{fig:wcmuplotasitePerSpp})}
+\label{fig:wcmuplotasite}
+\end{figure}
+
+% Wildchrokie provenances mu plot per species
+\begin{figure}[!ht]
+\includegraphics[width=0.8\textwidth]{../figures/wildchrokie/growthModelsMain/muProvPerSpp.pdf}
+\caption{The effect of provenance on growth across a latitudinal gradient estimated per species. We show the ring width (log(mm)) for each provenance estimated from the following intercept-only model: $log(ringwidth) \sim Normal(\alpha_{provenance} + \alpha_{treeid}, \sigma) $, using the package rstanarm version 2.32.1 \citep{gabryRstanarmBayesianApplied2016}. The dots represent the estimated mean of each provenance (ordered by latitude), with 50\% and 90\% uncertainty intervals (thicker and thinner lines, respectively).}
+\label{fig:wcmuplotasitePerSpp}
+\end{figure}
 
 % Full vs restricted data comparison for Wildchrokie
 \begin{figure}[!ht]

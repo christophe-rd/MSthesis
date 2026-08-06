@@ -1,4 +1,4 @@
-\begin{thebibliography}{114}
+\begin{thebibliography}{116}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Agel \emph{et~al.}(2025)Agel, Barlow, Skinner \&
@@ -347,6 +347,11 @@ Fu, Y.H., Piao, S., Op~De~Beeck, M., Cong, N., Zhao, H., Zhang, Y., Menzel, A.
 \bibitem[{Furlow(1997)}]{furlow_alnus_1997}
 Furlow, J.J. (1997) Flora of {North} {America} {North} of {Mexico}.
 
+\bibitem[{Gabry \& Goodrich(2016)}]{gabryRstanarmBayesianApplied2016}
+Gabry, J. \& Goodrich, B. (2016) rstanarm: {Bayesian} {Applied} {Regression}
+  {Modeling} via {Stan}. Institution: Comprehensive R Archive Network Pages:
+  2.32.1.
+
 \bibitem[{Gallinat \emph{et~al.}(2015)Gallinat, Primack \&
   Wagner}]{gallinat_autumn_2015}
 Gallinat, A.S., Primack, R.B. \& Wagner, D.L. (2015) Autumn, the neglected
@@ -569,16 +574,14 @@ Muhr, J., Messier, C., Delagrange, S., Trumbore, S., Xu, X. \& Hartmann, H.
   several years previously during early springtime sap‐ascent. \emph{New
   Phytologist} \textbf{209}, 1410--1416.
 
-\bibitem[{{National Centers for Environmental Information
-  (NCEI)}(2026)}]{nationalcentersforenvironmentalinformationncei_north_2026}
-{National Centers for Environmental Information (NCEI)} (2026) North {American}
+\bibitem[{{National Centers for Environmental
+  Information}(2026)}]{nationalcentersforenvironmentalinformationncei_north_2026}
+{National Centers for Environmental Information} (2026) North {American}
   {Drought} {Monitor}. Shortauthor: NCEI Accessed: 2026-04-22.
 
-\bibitem[{{National Oceanic and Atmospheric Administration
-  (NOAA)}(2026)}]{nationaloceanicandatmosphericadministration_local_2026}
-{National Oceanic and Atmospheric Administration (NOAA)} (2026) Local
-  {Climatological} {Data} {Station} {Details}: {Boston} {Logan} {Internal}
-  {Airport}, {MA} {US}, {WBAN}:14739.
+\bibitem[{(NOAA)(2026)}]{nationaloceanicandatmosphericadministration_local_2026}
+(NOAA), N.O.a.A.A. (2026) Local {Climatological} {Data} {Station} {Details}:
+  {Boston} {Logan} {Internal} {Airport}, {MA} {US}, {WBAN}:14739.
 
 \bibitem[{Pagel(1999)}]{pagel_inferring_1999}
 Pagel, M. (1999) Inferring the historical patterns of biological evolution.
@@ -634,6 +637,15 @@ Richardson, A.D., Anderson, R.S., Arain, M.A., Barr, A.G., Bohrer, G., Chen,
   need better representation of vegetation phenology: {Results} from the
   {North} {American} {Carbon} {Program} {Site} {Synthesis}. \emph{Global Change
   Biology} \textbf{18}, 566--584.
+
+\bibitem[{Rohde \emph{et~al.}(2011)Rohde, Storme, Jorge, Gaudet, Vitacolonna,
+  Fabbrini, Ruttink, Zaina, Marron, Dillen, Steenackers, Sabatti, Morgante,
+  Boerjan \& Bastien}]{rohde_bud_2011}
+Rohde, A., Storme, V., Jorge, V., Gaudet, M., Vitacolonna, N., Fabbrini, F.,
+  Ruttink, T., Zaina, G., Marron, N., Dillen, S., Steenackers, M., Sabatti, M.,
+  Morgante, M., Boerjan, W. \& Bastien, C. (2011) Bud set in poplar – genetic
+  dissection of a complex trait in natural and hybrid populations. \emph{New
+  Phytologist} \textbf{189}, 106--121.
 
 \bibitem[{Savage \emph{et~al.}(2022)Savage, Kiecker, McMann, Park, Rothendler
   \& Mosher}]{savageLeafOutTime2022}

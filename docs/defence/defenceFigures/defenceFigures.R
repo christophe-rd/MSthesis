@@ -63,8 +63,8 @@ colcc <- "#a00e00"
 colspring <- "#247d3f"
 colfall <- "#da7901"
 
-axissize <- 1.2
-labsize <- 1.5
+axissize <- 2
+labsize <- 2
 
 # assign sos and eos values
 ccsos <- 110
@@ -87,8 +87,8 @@ dates <- format(as.Date(ticks, origin = "2023-01-01"), "%d %b")
 
 myxlimp3 <- c(min(doy_seq), max(doy_seq))
 mylwd <- 3
-mysmalltxt <- 1.2
-mylargetxt <- 1.9
+mysmalltxt <- 2
+mylargetxt <- 3
 
 # Panel margins
 p1 <- c(0, 5, 0, 2)
@@ -189,8 +189,10 @@ plot.new()
 plot.window(xlim = myxlimp3, ylim = c(0, 1))
 
 # pictograms width and height
-img_w <- 18
+img_w <- 23
 img_h <- 0.6
+x_left <- ccsos
+x_right <- cceos
 
 # pictograms scaler
 norm <- 2
@@ -246,11 +248,6 @@ filledcircle(r1 = r, mid = c(preeos,  smooth_pre[doy_seq %in% preeos]),
 segments(x0 = presos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 segments(x0 = preeos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 
-
-text(x = mean(mean_pre_gdd$doy) - 30 , y = max(smooth_pre) -9,
-     "Pre climate change", col = adjustcolor(colpre, alpha.f = 1), 
-     cex = mysmalltxt)
-
 dev.off()
 
 # <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
@@ -274,7 +271,7 @@ segments(x0 = x_left,  y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, col = colcc)
 
 # pictograms width and height
-img_w <- 18
+img_w <- 23
 img_h <- 0.6
 
 # pictograms scaler
@@ -291,7 +288,7 @@ rasterImage(img_budset,
             arrow_y - img_h/norm,
             x_right + 13 + img_w/norm,
             arrow_y + img_h/norm)
-text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
+text(x = ccsos + (cceos - ccsos)/2, y = arrow_y + 0.15,
      "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Pre season arrow
@@ -305,7 +302,7 @@ segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 
 arrow_y <- 0.4
 
-# text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
+# text(x = ccsos + (cceos - ccsos)/2, y = arrow_y + 0.15,
      # "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Panel 2: Temperature curves --- --- --- --- --- --- --- --- --- --- --- --- ---
@@ -362,7 +359,7 @@ Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
        arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",     col = colfall,   cex = mylargetxt)
+text(x = cceos - 20, y = 7, "Later EOS",   col = colfall, cex = mysmalltxt)
 
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
@@ -390,7 +387,7 @@ segments(x0 = x_left,  y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, col = colcc)
 
 # pictograms width and height
-img_w <- 18
+img_w <- 23
 img_h <- 0.6
 
 # pictograms scaler
@@ -407,7 +404,7 @@ rasterImage(img_budset,
             arrow_y - img_h/norm,
             x_right + 13 + img_w/norm,
             arrow_y + img_h/norm)
-text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
+text(x = ccsos + (cceos - ccsos)/2, y = arrow_y + 0.15,
      "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Pre season arrow
@@ -420,9 +417,6 @@ segments(x0 = x_left,  y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, col = adjustcolor(colpre, alpha.f = 0.8))
 
 arrow_y <- 0.4
-
-# text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
-# "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Panel 2: Temperature curves --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p1)
@@ -478,7 +472,7 @@ Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
        arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",     col = colfall,   cex = mylargetxt)
+text(x = cceos - 20, y = 7, "Later EOS",   col = colfall,   cex = mysmalltxt)
 
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
@@ -489,7 +483,7 @@ plot(doy_seq, gdd_cc, ylim = range(mean_cc_gdd$GDD_5),
      # frame = FALSE,
      col = adjustcolor(colpre, alpha.f = 0.4),
      main = "", cex.axis = axissize, cex.lab = labsize)
-mtext("(b)", side = 3, adj = 0, line = 0.2, font = 2, cex = 1.3)
+
 axis(1, at = ticks, labels = dates, cex.axis = axissize)
 
 
@@ -547,8 +541,8 @@ polygon(
   border = NA
 )
 
-text(x = x_arrow + 5, y = y_start + 200, 
-     "Warmer thermal \nseason", col = "black", cex = mylargetxt, adj = 0)
+text(x = x_arrow + 5, y = y_start + 150, 
+     "Warmer \nthermal season", col = "black", cex = mylargetxt, adj = 0)
 img_w <- 23
 img_h <- 3400 * 0.2
 smll <- 4.3
@@ -578,7 +572,7 @@ segments(x0 = x_left,  y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, col = colcc)
 
 # pictograms width and height
-img_w <- 18
+img_w <- 23
 img_h <- 0.6
 
 # pictograms scaler
@@ -595,7 +589,7 @@ rasterImage(img_budset,
             arrow_y - img_h/norm,
             x_right + 13 + img_w/norm,
             arrow_y + img_h/norm)
-text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
+text(x = ccsos + (cceos - ccsos)/2, y = arrow_y + 0.15,
      "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Pre season arrow
@@ -608,9 +602,6 @@ segments(x0 = x_left,  y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, 
 segments(x0 = x_right, y0 = arrow_y - cap_h, y1 = arrow_y + cap_h, lwd = mylwd, col = adjustcolor(colpre, alpha.f = 0.8))
 
 arrow_y <- 0.4
-
-# text(x = ccsos + (cceos - ccsos)/2 - 10 , y = arrow_y + 0.1,
-# "Longer calendar season", col = "black", cex = mylargetxt)
 
 # Panel 2: Temperature curves --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p1)
@@ -694,14 +685,7 @@ Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
        arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",     col = colfall,   cex = mylargetxt)
-
-# legend(x = ccsos - 80, y = 25, 
-#        legend = c("Pre climate change",
-#                   "Post climate change"),
-#        bty = "o", lwd = 3, cex = 1.2,
-#        col = c(colpre, colcc),
-#        title = "Curves")
+text(x = cceos - 20, y = 7, "Later EOS",   col = colfall,   cex = mysmalltxt)
 
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
@@ -712,7 +696,7 @@ plot(doy_seq, gdd_cc, ylim = range(mean_cc_gdd$GDD_5),
      # frame = FALSE,
      col = adjustcolor(colpre, alpha.f = 0.4),
      main = "", cex.axis = axissize, cex.lab = labsize)
-mtext("(b)", side = 3, adj = 0, line = 0.2, font = 2, cex = 1.3)
+
 axis(1, at = ticks, labels = dates, cex.axis = axissize)
 
 
@@ -754,7 +738,7 @@ segments(x0 = presos, x1 = presos - 30,
 Arrows(x0 = presos - 35, x1 = presos - 35,
        y0 = min(mean_cc_gdd$GDD_5), 
        y1 = mean_cc_gdd$GDD_5[mean_cc_gdd$doy %in% presos], 
-       lwd = 2, lty = 1, col = colspring, arr.type = "T", code = 3)
+       lwd = 3, lty = 1, col = colspring, arr.type = "T", code = 3)
 
 # Late season gdd
 segments(x0 = preeos, x1 = cceos - 30,
@@ -768,7 +752,7 @@ segments(x0 = cceos, x1 = cceos - 30,
 Arrows(x0 = cceos - 35, x1 = cceos - 35,
        y0 = mean_pre_gdd$GDD_5[mean_pre_gdd$doy %in% preeos], 
        y1 = mean_cc_gdd$GDD_5[mean_cc_gdd$doy %in% cceos], 
-       lwd = 2, lty = 1, col = colfall, arr.type = "T", code = 3)
+       lwd = 3, lty = 1, col = colfall, arr.type = "T", code = 3)
 
 # Polygon for warmer thermal season
 x_arrow <- cceos + 5
@@ -802,8 +786,8 @@ polygon(
   border = NA
 )
 
-text(x = x_arrow + 5, y = y_start + 200, 
-     "Warmer thermal \nseason", col = "black", cex = mylargetxt, adj = 0)
+text(x = x_arrow + 5, y = y_start + 150, 
+     "Warmer \nthermal season", col = "black", cex = mylargetxt, adj = 0)
 img_w <- 23
 img_h <- 3400 * 0.2
 smll <- 4.3
