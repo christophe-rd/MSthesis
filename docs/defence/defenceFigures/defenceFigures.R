@@ -17,6 +17,7 @@ library(pollen)
 setwd("/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses")
 
 source("rcode/tools.R")
+source("rcode/growthModelsMain.R")
 
 # flags
 makeplots <- FALSE
@@ -793,5 +794,241 @@ img_h <- 3400 * 0.2
 smll <- 4.3
 norm <- 2
 
+dev.off()
+
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+# Parameter estimates ####
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+par(family = "Helvetica")
+
+# === === === === === === === === === === === === === === === === 
+# EMPIRICAL DATA ####
+# === === === === === === === === === === === === === === === === 
+climatesum <- read.csv("output/climateSummariesYear.csv")
+weldhillclim <- read.csv("output/weldhillClimateCleaned.csv")
+
+emp$latbi[which(emp$latbi %in% "Alnus incana")] <- "A. incana"
+emp$latbi[which(emp$latbi %in% "Betula alleghaniensis")] <- "B. alleghaniensis"
+emp$latbi[which(emp$latbi %in% "Betula papyrifera")] <- "B. papyrifera"
+emp$latbi[which(emp$latbi %in% "Betula populifolia")] <- "B. populifolia"
+
+# Load parameter summaries generated in growthModelsMain.R ####
+sigma_df2  <- read.csv("output/GM_GDDparam_sigma.csv")
+bspp_df2   <- read.csv("output/GM_GDDparam_bspp.csv")
+treeid_df2 <- read.csv("output/GM_GDDparam_treeid.csv")
+aspp_df2   <- read.csv("output/GM_GDDparam_aspp.csv")
+site_df2   <- read.csv("output/GM_GDDparam_site.csv")
+
+treeid_df2$treeid <- as.numeric(treeid_df2$treeid)  
+treeid_df2$treeid_name <- emp$treeid[match(treeid_df2$treeid, emp$treeid_num)]
+bspp_df2$spp_name <- emp$latbi[match(bspp_df2$spp, emp$spp_num)]
+site_df2$site_name <- emp$site[match(site_df2$site, emp$site_num)]
+aspp_df2$spp_name <- emp$latbi[match(aspp_df2$spp, emp$spp_num)]
+
+# GSL
+sigma_df2_gsl  <- read.csv("output/GM_GSLparam_sigma.csv")
+bspp_df2_gsl   <- read.csv("output/GM_GSLparam_bspp.csv")
+treeid_df2_gsl <- read.csv("output/GM_GSLparam_treeid.csv")
+aspp_df2_gsl   <- read.csv("output/GM_GSLparam_aspp.csv")
+site_df2_gsl   <- read.csv("output/GM_GSLparam_site.csv")
+
+treeid_df2_gsl$treeid <- as.numeric(treeid_df2_gsl$treeid)
+treeid_df2_gsl$treeid_name <- emp$treeid[match(treeid_df2_gsl$treeid, emp$treeid_num)]
+bspp_df2_gsl$spp_name <- emp$latbi[match(bspp_df2_gsl$spp, emp$spp_num)]
+site_df2_gsl$site_name <- emp$site[match(site_df2_gsl$site, emp$site_num)]
+aspp_df2_gsl$spp_name <- emp$latbi[match(aspp_df2_gsl$spp, emp$spp_num)]
+
+# SOS 
+sigma_df2_sos  <- read.csv("output/GM_SOSparam_sigma.csv")
+bspp_df2_sos   <- read.csv("output/GM_SOSparam_bspp.csv")
+treeid_df2_sos <- read.csv("output/GM_SOSparam_treeid.csv")
+aspp_df2_sos   <- read.csv("output/GM_SOSparam_aspp.csv")
+site_df2_sos   <- read.csv("output/GM_SOSparam_site.csv")
+
+treeid_df2_sos$treeid <- as.numeric(treeid_df2_sos$treeid)
+treeid_df2_sos$treeid_name <- emp$treeid[match(treeid_df2_sos$treeid, emp$treeid_num)]
+bspp_df2_sos$spp_name <- emp$latbi[match(bspp_df2_sos$spp, emp$spp_num)]
+site_df2_sos$site_name <- emp$site[match(site_df2_sos$site, emp$site_num)]
+aspp_df2_sos$spp_name <- emp$latbi[match(aspp_df2_sos$spp, emp$spp_num)]
+
+# EOS
+sigma_df2_eos  <- read.csv("output/GM_EOSparam_sigma.csv")
+bspp_df2_eos   <- read.csv("output/GM_EOSparam_bspp.csv")
+treeid_df2_eos <- read.csv("output/GM_EOSparam_treeid.csv")
+aspp_df2_eos   <- read.csv("output/GM_EOSparam_aspp.csv")
+site_df2_eos   <- read.csv("output/GM_EOSparam_site.csv")
+
+treeid_df2_eos$treeid <- as.numeric(treeid_df2_eos$treeid)
+treeid_df2_eos$treeid_name <- emp$treeid[match(treeid_df2_eos$treeid, emp$treeid_num)]
+bspp_df2_eos$spp_name <- emp$latbi[match(bspp_df2_eos$spp, emp$spp_num)]
+site_df2_eos$site_name <- emp$site[match(site_df2_eos$site, emp$site_num)]
+aspp_df2_eos$spp_name <- emp$latbi[match(aspp_df2_eos$spp, emp$spp_num)]
+
+n_spp <- 4
+y_pos <- rev(1:n_spp)
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp GDD EMPTY##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/bsppEmpty.jpeg", width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2$mean, y_pos,
+     xlim = c(-0.2, 0.3), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with longer calendar seasons", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = NULL, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp GDD ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/muGDD.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2$mean, y_pos,
+     xlim = c(-0.2, 0.3), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with warmer thermal seasons", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = wccolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2$p5,  y_pos, bspp_df2$p95, y_pos, col = wccolslatbi, lwd = 1.5)
+segments(bspp_df2$p25, y_pos, bspp_df2$p75, y_pos, col = wccolslatbi, lwd = 3)
+text(x = bspp_df2$p5[1], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = wccolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_thermom,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp GSL ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/muGSL.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_gsl$mean, y_pos,
+     xlim = c(-0.2, 0.3), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with longer calendar seasons", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = wccolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_gsl$p5,  y_pos, bspp_df2_gsl$p95, y_pos, 
+         col = wccolslatbi, lwd = 1.5)
+segments(bspp_df2_gsl$p25, y_pos, bspp_df2_gsl$p75, y_pos, 
+         col = wccolslatbi, lwd = 3)
+text(x = bspp_df2_gsl$p5[2], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_gsl$spp_name, "')")),
+     col = wccolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_calenda,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp SOS ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/muSOS.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_sos$mean, y_pos,
+     xlim = c(-0.32, 0.35), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with a later start of season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = wccolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_sos$p5,  y_pos, bspp_df2_sos$p95, y_pos, 
+         col = wccolslatbi, lwd = 1.5)
+segments(bspp_df2_sos$p25, y_pos, bspp_df2_sos$p75, y_pos, 
+         col = wccolslatbi, lwd = 3)
+text(x = bspp_df2_sos$p5[1], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_sos$spp_name, "')")),
+     col = wccolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_leafout,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp EOS ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/muEOS.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_eos$mean, y_pos,
+     xlim = c(-0.32, 0.35), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with a later end of season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = wccolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_eos$p5,  y_pos, bspp_df2_eos$p95, y_pos, 
+         col = wccolslatbi, lwd = 1.5)
+segments(bspp_df2_eos$p25, y_pos, bspp_df2_eos$p75, y_pos, 
+         col = wccolslatbi, lwd = 3)
+text(x = bspp_df2_eos$p5[1], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_eos$spp_name, "')")),
+     col = wccolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_budset,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
 
 dev.off()
