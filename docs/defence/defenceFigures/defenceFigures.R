@@ -22,7 +22,6 @@ source("rcode/growthModelsMain.R")
 # flags
 makeplots <- FALSE
 
-emp <- read.csv("output/empiricalDataMAIN.csv")
 climatesum <- read.csv("output/climateSummariesYear.csv")
 climatesummonth <- read.csv("output/climateSummariesByMonth.csv")
 # gddyr <- read.csv("output/gddByYear.csv")
