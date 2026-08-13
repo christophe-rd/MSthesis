@@ -870,13 +870,17 @@ y_pos <- rev(1:n_spp)
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/bsppEmpty.jpeg", width = 2400, height = 1800, res = 400)
 par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
-plot(bspp_df2$mean, y_pos,
+y_pos2 <- 2:3
+bdum <- bspp_df2[2:3,]
+bdum <- bdum[,2:6] - 0.02
+plot(bdum$mean, y_pos2,
      xlim = c(-0.2, 0.3), ylim = c(0.5, n_spp + 0.5),
-     xlab = "ring width change with longer calendar seasons", ylab = "",
-     yaxt = "n", pch = 16, cex = 2.3, col = NULL, frame.plot = TRUE, 
-     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     xlab = "ring width change with season predictor", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = "#36454F", frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "#36454F"), 
      cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
-
+segments(bdum$p5,  y_pos2, bdum$p95, y_pos2, col = "#36454F", lwd = 1.5)
+segments(bdum$p25, y_pos2, bdum$p75, y_pos2, col = "#36454F", lwd = 3)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -1031,3 +1035,305 @@ rasterImage(
 )
 
 dev.off()
+
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+# Treespotters plots####
+# <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+setwd("/Users/christophe_rouleau-desrochers/github/coringtreespotters/analyses")
+source("rcode/TSgrowthModelsMain.R")
+
+# rasterized pictograms
+img_thermom <- rsvg::rsvg("/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/pictogramsLeaves/thermometer.svg")
+img_calenda <- rsvg::rsvg("/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/pictogramsLeaves/calendar.svg")
+img_leafout <- rsvg::rsvg("/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/pictogramsLeaves/bepaPicLeafout.svg")
+img_budset  <- rsvg::rsvg("/Users/christophe_rouleau-desrochers/github/wildchrokie/analyses/figures/pictogramsLeaves/bepaPicBudset.svg")
+
+sigma_df2  <- read.csv("output/GM_GDDparam_sigma_noPP.csv")
+bspp_df2   <- read.csv("output/GM_GDDparam_bspp_noPP.csv")
+treeid_df2 <- read.csv("output/GM_GDDparam_treeid_noPP.csv")
+aspp_df2   <- read.csv("output/GM_GDDparam_aspp_noPP.csv")
+
+treeid_df2$id <- as.numeric(treeid_df2$id)  
+treeid_df2$id_name <- empts$id[match(treeid_df2$id, empts$id_num)]
+bspp_df2$spp_name <- empts$latbi[match(bspp_df2$spp, empts$spp_num)]
+aspp_df2$spp_name <- empts$latbi[match(aspp_df2$spp, empts$spp_num)]
+
+# GSL
+sigma_df2_gsl  <- read.csv("output/GM_GSLparam_sigma.csv")
+bspp_df2_gsl   <- read.csv("output/GM_GSLparam_bspp.csv")
+treeid_df2_gsl <- read.csv("output/GM_GSLparam_treeid.csv")
+aspp_df2_gsl   <- read.csv("output/GM_GSLparam_aspp.csv")
+
+treeid_df2_gsl$id <- as.numeric(treeid_df2_gsl$id)
+treeid_df2_gsl$id_name <- empts$id[match(treeid_df2_gsl$id, empts$id_num)]
+bspp_df2_gsl$spp_name <- empts$latbi[match(bspp_df2_gsl$spp, empts$spp_num)]
+aspp_df2_gsl$spp_name <- empts$latbi[match(aspp_df2_gsl$spp, empts$spp_num)]
+
+# SOS 
+sigma_df2_sos  <- read.csv("output/GM_SOSparam_sigma.csv")
+bspp_df2_sos   <- read.csv("output/GM_SOSparam_bspp.csv")
+treeid_df2_sos <- read.csv("output/GM_SOSparam_treeid.csv")
+aspp_df2_sos   <- read.csv("output/GM_SOSparam_aspp.csv")
+
+treeid_df2_sos$id <- as.numeric(treeid_df2_sos$id)
+treeid_df2_sos$id_name <- empts$id[match(treeid_df2_sos$id, empts$id_num)]
+bspp_df2_sos$spp_name <- empts$latbi[match(bspp_df2_sos$spp, empts$spp_num)]
+aspp_df2_sos$spp_name <- empts$latbi[match(aspp_df2_sos$spp, empts$spp_num)]
+
+# EOS
+sigma_df2_eos  <- read.csv("output/GM_EOSparam_sigma.csv")
+bspp_df2_eos   <- read.csv("output/GM_EOSparam_bspp.csv")
+treeid_df2_eos <- read.csv("output/GM_EOSparam_treeid.csv")
+aspp_df2_eos   <- read.csv("output/GM_EOSparam_aspp.csv")
+
+treeid_df2_eos$id <- as.numeric(treeid_df2_eos$id)
+treeid_df2_eos$id_name <- empts$id[match(treeid_df2_eos$id, empts$id_num)]
+bspp_df2_eos$spp_name <- empts$latbi[match(bspp_df2_eos$spp, empts$spp_num)]
+aspp_df2_eos$spp_name <- empts$latbi[match(aspp_df2_eos$spp, empts$spp_num)]
+
+n_spp <- 11
+y_pos <- rev(1:n_spp)
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp GDD ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/TSmuGDD.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2$mean, y_pos,
+     xlim = c(-0.3, 0.3), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with warmer thermal seasons", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = tscolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2$p5,  y_pos, bspp_df2$p95, y_pos, col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2$p25, y_pos, bspp_df2$p75, y_pos, col = tscolslatbi, lwd = 3)
+text(x = bspp_df2$p5[4], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_thermom,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp GSL ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/TSmuGSL.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_gsl$mean, y_pos,
+     xlim = c(-0.3, 0.3), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with longer calendar seasons", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = tscolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_gsl$p5,  y_pos, bspp_df2_gsl$p95, y_pos, 
+         col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2_gsl$p25, y_pos, bspp_df2_gsl$p75, y_pos, 
+         col = tscolslatbi, lwd = 3)
+text(x = bspp_df2_gsl$p5[4], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_gsl$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_calenda,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp SOS ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/TSmuSOS.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_sos$mean, y_pos,
+     xlim = c(-0.7, 0.7), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with a later start of season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = tscolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_sos$p5,  y_pos, bspp_df2_sos$p95, y_pos, 
+         col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2_sos$p25, y_pos, bspp_df2_sos$p75, y_pos, 
+         col = tscolslatbi, lwd = 3)
+text(x = bspp_df2_sos$p5[1], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_sos$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_leafout,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### bspp EOS ##### 
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/TSmuEOS.jpeg", 
+     width = 2400, height = 1800, res = 400)
+par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+plot(bspp_df2_eos$mean, y_pos,
+     xlim = c(-0.4, 0.4), ylim = c(0.5, n_spp + 0.5),
+     xlab = "ring width change with a later end of season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2.3, col = tscolslatbi, frame.plot = TRUE, 
+     panel.first = abline(v = 0, lty = 2, col = "black"), 
+     cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
+segments(bspp_df2_eos$p5,  y_pos, bspp_df2_eos$p95, y_pos, 
+         col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2_eos$p25, y_pos, bspp_df2_eos$p75, y_pos, 
+         col = tscolslatbi, lwd = 3)
+text(x = bspp_df2_eos$p5[4], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2_eos$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.1, 0.5), cex = 1.1, xpd = NA)
+
+usr <- par("usr")
+xrange <- diff(usr[1:2])
+yrange <- diff(usr[3:4])
+w <- xrange * 0.20
+h <- yrange * 0.30
+cx <- usr[1]
+cy <- usr[4] - yrange * 0.05
+
+rasterImage(
+  img_budset,
+  cx - w/2,
+  cy - h/2,
+  cx + w/2,
+  cy + h/2,
+  xpd = NA
+)
+
+dev.off()
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### Previous year model #####
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+bspp_df2_ts_curr  <- read.csv("output/GM_GDDparam_bspp_prvsYr.csv")
+bspp_df2_ts_prvs  <- read.csv("output/GM_GDDparam_bsppYr_prvsYr.csv")
+
+bspp_df2_ts_curr$spp_name <- empts$latbi[match(bspp_df2_ts_curr$spp, empts$spp_num)]
+bspp_df2_ts_prvs$spp_name <- empts$latbi[match(bspp_df2_ts_prvs$spp, empts$spp_num)]
+
+jpeg("~/github/MSthesis/docs/defence/defenceFigures/bsppCurrentVSpreviousYR.jpeg",
+     width = 3600, height = 1800, res = 400)
+par(mfrow = c(1,2), mar = c(4, 2, 2, 1))
+
+# Row 2: Previous year
+plot(bspp_df2_ts_prvs$mean, y_pos,
+     xlim = c(-1, 0.4), ylim = c(0.5, n_spp + 0.5), 
+     xlab = "ring width change with previous year thermal season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2, col = tscolslatbi, frame.plot = TRUE,
+     panel.first = abline(v = 0, lty = 2, col = "black"))
+segments(bspp_df2_ts_prvs$p5,  y_pos, bspp_df2_ts_prvs$p95, y_pos,
+         col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2_ts_prvs$p25, y_pos, bspp_df2_ts_prvs$p75, y_pos,
+         col = tscolslatbi, lwd = 3)
+mtext("Previous year", side = 3, adj = 0, line = 0.2, font = 2, cex = 2)
+text(x = bspp_df2_ts_prvs$p5[9], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.2, 0.5), cex = 1.1, xpd = NA)
+
+# Current year
+plot(bspp_df2_ts_curr$mean, y_pos,
+     xlim = c(-1, 0.4), ylim = c(0.5, n_spp + 0.5), 
+     xlab = "ring width change with current year thermal season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2, col = tscolslatbi, frame.plot = TRUE,
+     panel.first = abline(v = 0, lty = 2, col = "black"))
+segments(bspp_df2_ts_curr$p5,  y_pos, bspp_df2_ts_curr$p95, y_pos,
+         col = tscolslatbi, lwd = 1.5)
+segments(bspp_df2_ts_curr$p25, y_pos, bspp_df2_ts_curr$p75, y_pos,
+         col = tscolslatbi, lwd = 3)
+mtext("Current year", side = 3, adj = 0, line = 0.2, font = 2, cex = 2)
+text(x = bspp_df2_ts_curr$p5[9], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = tscolslatbi, adj = c(+1.2, 0.5), cex = 1.1, xpd = NA)
+
+dev.off()
+
+
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+##### Previous year model with transparent species#####
+# --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+jpeg("~/github/MSthesis/docs/defence/defenceFigures/bsppCurrentVSpreviousYR2.jpeg",
+     width = 3600, height = 1800, res = 400)
+par(mfrow = c(1,2), mar = c(4, 2, 2, 1))
+
+# Transparent all of speceis except the ones that don't cross 0
+is_highlight <- bspp_df2_ts_prvs$spp_name %in% c("B. alleghaniensis", "B. nigra")
+tscolslatbi2 <- ifelse(is_highlight, tscolslatbi, adjustcolor(tscolslatbi, alpha.f = 0.1))
+
+# Row 2: Previous year
+plot(bspp_df2_ts_prvs$mean, y_pos,
+     xlim = c(-1, 0.4), ylim = c(0.5, n_spp + 0.5), 
+     xlab = "ring width change with previous year thermal season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2, col = tscolslatbi2, frame.plot = TRUE,
+     panel.first = abline(v = 0, lty = 2, col = "black"))
+segments(bspp_df2_ts_prvs$p5,  y_pos, bspp_df2_ts_prvs$p95, y_pos,
+         col = tscolslatbi2, lwd = 1.5)
+segments(bspp_df2_ts_prvs$p25, y_pos, bspp_df2_ts_prvs$p75, y_pos,
+         col = tscolslatbi2, lwd = 3)
+mtext("Previous year", side = 3, adj = 0, line = 0.2, font = 2, cex = 2)
+text(x = bspp_df2_ts_prvs$p5[9], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = tscolslatbi2, adj = c(+1.2, 0.5), cex = 1.1, xpd = NA)
+
+# Current year
+plot(bspp_df2_ts_curr$mean, y_pos,
+     xlim = c(-1, 0.4), ylim = c(0.5, n_spp + 0.5), 
+     xlab = "ring width change with current year thermal season", ylab = "",
+     yaxt = "n", pch = 16, cex = 2, col = tscolslatbi2, frame.plot = TRUE,
+     panel.first = abline(v = 0, lty = 2, col = "black"))
+segments(bspp_df2_ts_curr$p5,  y_pos, bspp_df2_ts_curr$p95, y_pos,
+         col = tscolslatbi2, lwd = 1.5)
+segments(bspp_df2_ts_curr$p25, y_pos, bspp_df2_ts_curr$p75, y_pos,
+         col = tscolslatbi2, lwd = 3)
+mtext("Current year", side = 3, adj = 0, line = 0.2, font = 2, cex = 2)
+text(x = bspp_df2_ts_curr$p5[9], y = y_pos,
+     labels = parse(text = paste0("italic('", bspp_df2$spp_name, "')")),
+     col = tscolslatbi2, adj = c(+1.2, 0.5), cex = 1.1, xpd = NA)
+
+dev.off()
+
+
