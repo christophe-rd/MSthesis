@@ -225,7 +225,7 @@ plot(doy_seq, smooth_pre, type = "n",
      ylab = expression(paste("Temperature (", degree, "C)")), 
      # frame = FALSE,
      cex.axis = axissize, cex.lab = labsize)
-
+axis(1, at = ticks, labels = dates, cex.axis = axissize)
 # Shade area below threshold under pre curve
 polygon(x_poly, y_poly, col = adjustcolor("grey", alpha.f = 0.6), border = NA)
 
@@ -313,7 +313,7 @@ plot(doy_seq, smooth_pre, type = "n",
      ylab = expression(paste("Temperature (", degree, "C)")), 
      # frame = FALSE,
      cex.axis = axissize, cex.lab = labsize)
-
+axis(1, at = ticks, labels = dates, cex.axis = axissize)
 
 # Shade area below threshold under pre curve
 polygon(x_poly, y_poly, col = adjustcolor("grey", alpha.f = 0.6), border = NA)
@@ -353,13 +353,15 @@ segments(x0 = presos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 segments(x0 = preeos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 
 # Phenology trend arrows
-Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 5, y1 = 5,
-       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring)
+Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 2, y1 = 5,
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring,
+       arr.lwd = 0.5, arr.length = 0.2)
 Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
-       arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colfall, 
+       arr.lwd = 0.5, arr.length = 0.2)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",   col = colfall, cex = mysmalltxt)
+text(x = cceos - 30, y = 7, "Later EOS",   col = colfall, cex = mylargetxt)
 
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
@@ -466,14 +468,16 @@ segments(x0 = presos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 segments(x0 = preeos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 
 # Phenology trend arrows
-Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 5, y1 = 5,
-       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring)
+# Phenology trend arrows
+Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 2, y1 = 5,
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring,
+       arr.lwd = 0.5, arr.length = 0.2)
 Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
-       arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colfall, 
+       arr.lwd = 0.5, arr.length = 0.2)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",   col = colfall,   cex = mysmalltxt)
-
+text(x = cceos - 30, y = 7, "Later EOS",   col = colfall, cex = mylargetxt)
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
 plot(doy_seq, gdd_cc, ylim = range(mean_cc_gdd$GDD_5),
@@ -679,13 +683,16 @@ segments(x0 = presos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 segments(x0 = preeos, y0 = 0, y1 = 30, lwd = 0.3, lty = 2)
 
 # Phenology trend arrows
-Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 5, y1 = 5,
-       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring)
+# Phenology trend arrows
+Arrows(x0 = ccsos + 20, y0 = 5, x1 = ccsos + 2, y1 = 5,
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colspring,
+       arr.lwd = 0.5, arr.length = 0.2)
 Arrows(x0 = cceos - 10, y0 = 5, x1 = cceos - 2, y1 = 5,
-       arr.type = "triangle", arr.width = 0.2, arr.lwd = 0.5, arr.length = 0.2, lwd = 2, col = colfall)
+       arr.type = "triangle", arr.width = 0.3, lwd = 2, col = colfall, 
+       arr.lwd = 0.5, arr.length = 0.2)
 
 text(x = ccsos + 30, y = 7, "Earlier SOS", col = colspring, cex = mylargetxt)
-text(x = cceos - 20, y = 7, "Later EOS",   col = colfall,   cex = mysmalltxt)
+text(x = cceos - 30, y = 7, "Later EOS",   col = colfall, cex = mylargetxt)
 
 # Panel 3: GDD curves --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 par(mar = p2)
@@ -865,11 +872,13 @@ aspp_df2_eos$spp_name <- emp$latbi[match(aspp_df2_eos$spp, emp$spp_num)]
 
 n_spp <- 4
 y_pos <- rev(1:n_spp)
+
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 ##### bspp GDD EMPTY##### 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 jpeg(file = "~/github/MSthesis/docs/defence/defenceFigures/bsppEmpty.jpeg", width = 2400, height = 1800, res = 400)
 par(mfrow = c(1,1), mar = c(4, 3, 2, 1))
+
 y_pos2 <- 2:3
 bdum <- bspp_df2[2:3,]
 bdum <- bdum[,2:6] - 0.02
@@ -881,8 +890,11 @@ plot(bdum$mean, y_pos2,
      cex.axis = 1.2, cex.lab = 1.2, yaxt = "n",)
 segments(bdum$p5,  y_pos2, bdum$p95, y_pos2, col = "#36454F", lwd = 1.5)
 segments(bdum$p25, y_pos2, bdum$p75, y_pos2, col = "#36454F", lwd = 3)
+arrows(x0 = 0.03, y0 = n_spp + 0.85, x1 = 0.3, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(0.17, n_spp + 0.98, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 0.85, x1 = -0.2, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(-0.03, n_spp + 0.98, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
-
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 ##### bspp GDD ##### 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -917,6 +929,11 @@ rasterImage(
   cy + h/2,
   xpd = NA
 )
+
+arrows(x0 = 0.03, y0 = n_spp + 0.85, x1 = 0.3, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(0.17, n_spp + 0.98, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 0.85, x1 = -0.17, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 0.98, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -956,6 +973,10 @@ rasterImage(
   xpd = NA
 )
 
+arrows(x0 = 0.03, y0 = n_spp + 0.85, x1 = 0.3, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(0.17, n_spp + 0.98, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 0.85, x1 = -0.17, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 0.98, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -995,6 +1016,10 @@ rasterImage(
   xpd = NA
 )
 
+arrows(x0 = 0.03, y0 = n_spp + 0.85, x1 = 0.3, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(0.2, n_spp + 0.98, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 0.85, x1 = -0.25, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 0.98, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -1033,6 +1058,11 @@ rasterImage(
   cy + h/2,
   xpd = NA
 )
+
+arrows(x0 = 0.03, y0 = n_spp + 0.85, x1 = 0.3, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(0.2, n_spp + 0.98, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 0.85, x1 = -0.25, y1 = n_spp + 0.85, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 0.98, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 
 dev.off()
 
@@ -1128,6 +1158,11 @@ rasterImage(
   cy + h/2,
   xpd = NA
 )
+
+arrows(x0 = 0.03, y0 = n_spp + 1.4, x1 = 0.3, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(0.17, n_spp + 1.8, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 1.4, x1 = -0.25, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 1.8, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -1167,6 +1202,10 @@ rasterImage(
   xpd = NA
 )
 
+arrows(x0 = 0.03, y0 = n_spp + 1.4, x1 = 0.3, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(0.17, n_spp + 1.8, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.03, y0 = n_spp + 1.4, x1 = -0.25, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(-0.02, n_spp + 1.8, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -1206,6 +1245,10 @@ rasterImage(
   xpd = NA
 )
 
+arrows(x0 = 0.07, y0 = n_spp + 1.4, x1 = 0.7, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(0.4, n_spp + 1.8, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.07, y0 = n_spp + 1.4, x1 = -0.6, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(-0.05, n_spp + 1.8, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
 
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
@@ -1245,8 +1288,11 @@ rasterImage(
   xpd = NA
 )
 
+arrows(x0 = 0.04, y0 = n_spp + 1.4, x1 = 0.4, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(0.22, n_spp + 1.8, "More growth", pos = 2, xpd = TRUE, cex = 1.2)
+arrows(x0 = -0.04, y0 = n_spp + 1.4, x1 = -0.35, y1 = n_spp + 1.4, length = 0.25, xpd = TRUE)
+text(-0.03, n_spp + 1.8, "Less growth", pos = 2, xpd = TRUE, cex = 1.2)
 dev.off()
-
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 ##### Previous year model #####
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
