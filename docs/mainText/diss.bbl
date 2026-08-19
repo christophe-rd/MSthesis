@@ -579,9 +579,11 @@ Muhr, J., Messier, C., Delagrange, S., Trumbore, S., Xu, X. \& Hartmann, H.
 {National Centers for Environmental Information} (2026) North {American}
   {Drought} {Monitor}. Shortauthor: NCEI Accessed: 2026-04-22.
 
-\bibitem[{(NOAA)(2026)}]{nationaloceanicandatmosphericadministration_local_2026}
-(NOAA), N.O.a.A.A. (2026) Local {Climatological} {Data} {Station} {Details}:
-  {Boston} {Logan} {Internal} {Airport}, {MA} {US}, {WBAN}:14739.
+\bibitem[{{National Oceanic and Atmospheric
+  Administration}(2026)}]{nationaloceanicandatmosphericadministration_local_2026}
+{National Oceanic and Atmospheric Administration} (2026) Local {Climatological}
+  {Data} {Station} {Details}: {Boston} {Logan} {Internal} {Airport}, {MA} {US},
+  {WBAN}:14739.
 
 \bibitem[{Pagel(1999)}]{pagel_inferring_1999}
 Pagel, M. (1999) Inferring the historical patterns of biological evolution.
