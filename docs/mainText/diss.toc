@@ -17,7 +17,7 @@
 \contentsline {chapter}{\numberline {2}Weak response of warmer growing seasons on tree growth across 11 species of adult trees in an urban arboretum}{14}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Methods}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Citizen science program}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Community science program}{16}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Phenological monitoring and sample collection}{17}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Sample processing, imaging and measuring}{18}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Data analyses}{18}{subsection.2.2.4}%
